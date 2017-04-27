@@ -9,7 +9,14 @@
     function routeConfig ($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise('/');
       
-      $stateProvider  
+      $stateProvider 
+
+        .state('home', {
+          url: '/',
+          templateUrl: '/html/home.html',
+          controller: 'homeController'
+        }) 
+
         .state('about', {
           url: '/aboutUs',
           templateUrl: ''
