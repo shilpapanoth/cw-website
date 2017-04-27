@@ -1,17 +1,20 @@
 (function(){
-
-  var cwApp = angular.module('cwApp', ['ui.router']);
-	cwApp.$inject = ['$stateProvider', '$urlRouterProvider'];
-	cwApp.config(function($stateProvider, $urlRouterProvider) {
+  'use strict';
+  angular
+    .module('cwApp', ['ui.router'])
+  	.config(routeConfig);
     
-  $urlRouterProvider.otherwise('/');
-  
-  $stateProvider  
-    .state('about', {
-      url: '/aboutUs',
-      templateUrl: ''
-  })   
-  });
+    routeConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+    
+    function routeConfig ($stateProvider, $urlRouterProvider) {
+      $urlRouterProvider.otherwise('/');
+      
+      $stateProvider  
+        .state('about', {
+          url: '/aboutUs',
+          templateUrl: ''
+        })   
+    }
 })()
 
 
