@@ -1,16 +1,17 @@
-var cwApp = angular.module('cwApp', ['ui.router']);
+(function(){
 
-routerApp.config(function($stateProvider, $urlRouterProvider) {
+  var cwApp = angular.module('cwApp', ['ui.router']);
+	cwApp.$inject = ['$stateProvider', '$urlRouterProvider'];
+	cwApp.config(function($stateProvider, $urlRouterProvider) {
     
-    $urlRouterProvider.otherwise('/');
-    
-    $stateProvider
-        
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('about', {
-            url: '/aboutUs',
-            templateUrl: ''
-        })
-        
-        
-});
+  $urlRouterProvider.otherwise('/');
+  
+  $stateProvider  
+    .state('about', {
+      url: '/aboutUs',
+      templateUrl: ''
+  })   
+  });
+})()
+
+
