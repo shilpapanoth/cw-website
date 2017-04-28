@@ -1,0 +1,84 @@
+.no-padding{
+	padding: 0;
+}
+
+.carousel-img{
+	background-size:cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	height: 100vh;
+	vertical-align: middle;
+  text-align: center;
+}
+
+.carousel-overlay{
+
+   width: 100%;
+   background: rgba(0, 0, 0, 0.21);
+   height: 100%;
+}
+
+.carousel-overlay-text{
+	font-size: 30px;
+	color:white;
+	display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+footer {
+    /*padding: 25px 0;*/
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 70px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+.footer-style{
+    width: 100%;
+    margin-bottom: 0px;
+    color: black;
+    background-color: white;
+    /*margin-top: 30px;*/
+}
+
+.copyright{
+	text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+/*NavBar Styles*/
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+}
+/****/
