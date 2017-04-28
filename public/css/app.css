@@ -51,8 +51,8 @@ footer ul.quicklinks {
 .footer-style{
     width: 100%;
     margin-bottom: 0px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #222222;
     /*margin-top: 30px;*/
 }
 
@@ -160,6 +160,6 @@ footer ul.quicklinks {
 
 .navbar-default .navbar-nav>li>a{
 	color: white;
-	font-weight: 400;
+	font-weight: 500;
 }
 /****/
