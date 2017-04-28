@@ -1,14 +1,5 @@
 <div ng-controller="homeController">
 	<div class="col-sm-12 no-padding">
-	   <!-- <carousel interval="myInterval">
-	      <slide ng-repeat="slide in slides" active="slide.active">
-	         <img ng-src="{{slide.image}}">
-	         <div class="carousel-caption">
-	            <h4>Slide {{$index+1}}</h4>
-	         </div>
-	      </slide>
-	    </carousel> -->
-
 		 <div id="mainCarousel" class="carousel slide" data-ride="carousel" style="height: 100vh;">
 
 	    <ol class="carousel-indicators">
@@ -19,21 +10,30 @@
 
 
 	    <div class="carousel-inner">
-	      <div class="item active carousel-img" style="background: url('../img/carousel1.jpg') 50% 50%;">
+	      <div class="item active carousel-img" style="background: url('../img/carousel1.jpg') 50% 50%;;background-repeat: no-repeat; background-size: cover;">
 	      	<div class="carousel-overlay">
-	      		<div class="carousel-overlay-text">This is some branding text for Image 1</div>
+	      		<div class="carousel-overlay-text">
+	      			<div style="font-size: 30px;">This is some branding text for Image 1</div>
+	      			<div style="font-size: 20px;">This is some branding text for Image 1</div>
+	      		</div>
 	      	</div>
 	      </div>
 
-	      <div class="item carousel-img" style="background: url('../img/carousel2.jpg') 50% 50%;">
+	      <div class="item carousel-img" style="background: url('../img/carousel2.jpg') 50% 50%;;background-repeat: no-repeat; background-size: cover;">
 					<div class="carousel-overlay">
-	      		<div class="carousel-overlay-text">This is some branding text for Image 2</div>
+	      		<div class="carousel-overlay-text">
+	      			<div style="font-size: 30px;">This is some branding text for Image 2</div>
+	      			<div style="font-size: 20px;">This is some branding text for Image 2</div>
+	      		</div>
 	      	</div>
 	      </div>
 
 	      <div class="item carousel-img" style="background: url('../img/carousel3.jpg') 50% 50%;background-repeat: no-repeat; background-size: cover;">
 	        <div class="carousel-overlay">
-	      		<div class="carousel-overlay-text">This is some branding text for Image 3</div>
+	      		<div class="carousel-overlay-text">
+	      			<div style="font-size: 30px;">This is some branding text for Image 3</div>
+	      			<div style="font-size: 20px;">This is some branding text for Image 3</div>
+	      		</div>
 	      	</div>
 	      </div>
 	    </div>
