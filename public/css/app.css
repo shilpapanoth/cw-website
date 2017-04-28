@@ -415,12 +415,11 @@ button:focus {
 .carousel-overlay{
 
    width: 100%;
-   background: rgba(0, 0, 0, 0.21);
+   background: rgba(0, 0, 0, 0.48);
    height: 100%;
 }
 
 .carousel-overlay-text{
-	font-size: 30px;
 	color:white;
 	display: inline-block;
   position: absolute;
@@ -452,8 +451,8 @@ footer ul.quicklinks {
 .footer-style{
     width: 100%;
     margin-bottom: 0px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #222222;
     /*margin-top: 30px;*/
 }
 
@@ -471,6 +470,63 @@ footer ul.quicklinks {
     background-color: #222;
 }
 
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #d80d0d;
+    background-color: #d80d0d;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d80d0d;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+    background-color: #d80d0d;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #d80d0d;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #d80d0d;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -480,6 +536,31 @@ footer ul.quicklinks {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-weight: 500;
 }
 
 /* -------------- details page css ------------ */
