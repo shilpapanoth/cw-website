@@ -13,13 +13,23 @@
 
         .state('home', {
           url: '/',
-          templateUrl: '/html/home.html',
-          controller: 'homeController'
+          templateUrl: '/html/home.html'
+          // controller: 'homeController'
         }) 
 
         .state('about', {
           url: '/aboutUs',
           templateUrl: ''
+        })
+        .state('apps', {
+          url: '/apps',
+          templateUrl: '/html/app-list.html',
+          controller: 'appListControler'
+        })
+        .state('app-detail', {
+          url: '/details?id',
+          templateUrl: '/html/app-detail.html',
+          controller: 'appDetailControler'
         })   
     }
 })()
