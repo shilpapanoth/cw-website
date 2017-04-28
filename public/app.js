@@ -28,7 +28,7 @@
         .state('app-detail', {
           url: '/details?id',
           templateUrl: '/html/app-detail.html',
-          controller: 'appDetailControler'
+          controller: 'appDetailController'
         })   
     }
 })()

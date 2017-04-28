@@ -1,4 +1,4 @@
-.app-list-container > .cover-img {
+.cover-img {
   background: url(https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg) top center no-repeat;
   height: 100vh;
   width: 100%;
@@ -19,13 +19,17 @@
   display: table; 
 }
 
+.app-detail-container > .cover-img {
+  height: 75vh !important;
+}
+
 .cover-img > * {
   z-index: 2;
   display: table-cell;
   position: relative;
 }
 
-.cover-img:before {
+.overlay.cover-img:before {
   position: absolute;
   top: 0;
   content: " ";
@@ -477,3 +481,15 @@ footer ul.quicklinks {
         transition: padding .3s;
     }
 }
+
+/* -------------- details page css ------------ */
+
+.app-detail {
+  position: relative;
+  top: -100px;
+  margin: 0px 80px;
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
