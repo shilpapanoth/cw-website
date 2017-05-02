@@ -18,7 +18,8 @@
         })
         .state('about', {
           url: '/aboutUs',
-          templateUrl: ''
+          templateUrl: '/html/aboutUs.html',
+          controller: 'aboutController'
         })
         .state('apps', {
           url: '/apps',
@@ -29,7 +30,7 @@
           url: '/details?id',
           templateUrl: '/html/app-detail.html',
           controller: 'appDetailController'
-        })   
+        })
     }
 })()
 

@@ -402,6 +402,7 @@ button:focus {
 	padding: 0;
 }
 
+/* -------------Caorousel styles -----------*/
 .carousel-img{
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -412,7 +413,7 @@ button:focus {
   text-align: center;
 }
 
-.carousel-overlay{
+.d-overlay{
 
    width: 100%;
    background: rgba(0, 0, 0, 0.48);
@@ -428,6 +429,7 @@ button:focus {
   transform: translate(-50%,-50%);
 }
 
+/* ----------------------Footer Styles --------------*/
 footer {
     /*padding: 25px 0;*/
     text-align: center;
@@ -463,7 +465,7 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-/*NavBar Styles*/
+/* ---------------- NavBar Styles ------------------*/
 
 .navbar-default {
     border-color: transparent;
@@ -581,3 +583,59 @@ footer ul.quicklinks {
   text-align: center;
 }
 
+/* --------------- About Us page Styles ----------------*/
+
+.about-bg{
+	background: url('../img/about-us2.jpg') 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.about-bg .headline{
+	  /*height: 100%;*/
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 2;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-bg .tagline{
+		color: #d0d0d0;
+    font-size: 25px;
+    padding: 0;
+    line-height: 36px;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+
+.about-bg .arrowDown {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    outline: 0;
+}
+
+.text-bg{
+	background: url('../img/about-us-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text-bg-filter{
+	background : rgba(255, 255, 255, 0.84);
+}
+
+.text{
+	font-size: 15px;
+	font-weight: 400;
+	padding: 20px 30px;
+}
