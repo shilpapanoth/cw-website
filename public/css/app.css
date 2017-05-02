@@ -6,17 +6,17 @@
   -moz-background-size: cover;
   background-size: cover;
   color: #fff;
-  
+
   background-position: center;
   background-repeat: no-repeat;
   transform: translateZ(0);
   position: relative;
   top: 0;
-  
+
   left: 0;
   overflow: hidden;
   color: #fff;
-  display: table; 
+  display: table;
 }
 
 .app-detail-container > .cover-img {
@@ -525,6 +525,13 @@ footer ul.quicklinks {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #d80d0d;
+}
+
+.navbar-default>div{
+	  padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media(min-width:768px) {
