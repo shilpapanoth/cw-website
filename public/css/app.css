@@ -27,6 +27,8 @@
   z-index: 2;
   display: table-cell;
   position: relative;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .overlay.cover-img:before {
@@ -38,10 +40,16 @@
   width: 100%;
   left: 0;
 }
+/*
+.heading, .content {
+}*/
 
 .heading {
-  vertical-align: middle;
- text-align: center;
+  font-size: 85px;
+}
+
+.content {
+  font-size: 40px;
 }
 
 .app-category {
@@ -593,7 +601,7 @@ footer ul.quicklinks {
 	background-position: center;
 }
 
-.about-bg .headline{
+.headline{
 	  /*height: 100%;*/
     text-align: center;
     vertical-align: middle;
@@ -606,7 +614,7 @@ footer ul.quicklinks {
     transform: translate(-50%,-50%);
 }
 
-.about-bg .tagline{
+.tagline{
 		color: #d0d0d0;
     font-size: 25px;
     padding: 0;
@@ -616,7 +624,7 @@ footer ul.quicklinks {
 }
 
 
-.about-bg .arrowDown {
+.arrowDown {
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -638,4 +646,8 @@ footer ul.quicklinks {
 	font-size: 15px;
 	font-weight: 400;
 	padding: 20px 30px;
+}
+
+.hover {
+    cursor: pointer;
 }
