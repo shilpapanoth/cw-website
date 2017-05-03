@@ -1,0 +1,99 @@
+
+<div ng-controller="contactController">
+	<div id="contact-us">
+     <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <h3 class="tagline">How can we help you?</h3>
+          <p>Please call us at <a href="tel:+1.415.234.3611" class="tel">+1.415.234.3611</a> or complete this form to speak with a member of our team. We take pride in being responsive and we promise to follow up within one business day. We look forward to learning more about your product.</p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <form action="/sendFeedback" method="POST" data-validate="parsley">
+	          <input type="text" name="contact_first_name" placeholder="Full Name" required="">
+	          <input type="email" name="contact_email" class="form-control" required="" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
+	          <input type="text" name="contact_phone" class="form-control" placeholder="Phone (optional)">
+	          <input type="text" name="tag" value="Contact Page" class="form-control" style="display: none">
+	          <textarea name="project_description" rows="3" required="" placeholder="Tell us about your project..."></textarea>
+	          <button type="submit" class="button">Send message</button>
+          </form>
+        </div>
+     </div>
+  </div>
+  <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="email contact_us">
+              <h3>Contact</h3>
+              <h4>For new business:</h4>
+              <a href="/contact" class="btn btn-primary">Contact Us</a>
+              <h4>For new career opportunities: </h4>
+              <a href="/jobs">info@cherrywork.net</a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+              <div  class="contact-information">
+                <div id="aclock-usa">
+                    <div class="division">
+                      <div class="div"></div>
+                      <div class="div"></div>
+                      <div class="mask"></div>
+                      <div class="div"></div>
+                      <div class="mask"></div>
+                      <div id="period-usa"></div>
+                    </div>
+                    <div id="hour-hand-usa" class="hours arrow"></div>
+                    <div id="minute-hand-usa" class="minutes arrow"></div>
+                    <div class="point"></div>
+                    <div id="second-hand-usa" class="second-hand arrow" ></div>
+                </div>
+                <div class="address">
+                  <h3>United States</h3>
+                  <span>5433 Ontario Common </span> <span>Fremont CA 94555</span> <span>USA </span>
+                  <a href="tel:+1.415.234.3611" class="tel">+1.415.234.3611</a>
+                </div>
+              </div>
+              <div class="contact-information">
+                <div id="aclock-sp">
+                      <div class="division">
+                        <div class="div"></div>
+                        <div class="div"></div>
+                        <div class="mask"></div>
+                        <div class="div"></div>
+                        <div class="mask"></div>
+                        <div id="period-sp"></div>
+                      </div>
+                      <div id="hour-hand-sp" class="hours arrow"></div>
+                      <div id="minute-hand-sp" class="minutes arrow"></div>
+                      <div class="point"></div>
+                      <div id="second-hand-sp" class="second-hand arrow" ></div>
+                  </div>
+                  <div class="address">
+                    <h3>Singapore</h3>
+                    <span>20 Cecil street  #14-01 </span> <span>Equity plaza</span> <span>Singapore - 049705</span>
+                    <a href="tel:+65.31587850" class="tel">+65.31587850</a>
+                  </div>
+              </div>
+              <div class="contact-information">
+                  <div id="aclock">
+                      <div class="division">
+                        <div class="div"></div>
+                        <div class="div"></div>
+                        <div class="mask"></div>
+                        <div class="div"></div>
+                        <div class="mask"></div>
+                        <div id="period"></div>
+                      </div>
+                      <div id="hourhand" class="hours arrow"></div>
+                      <div id="minutehand" class="minutes arrow"></div>
+                      <div class="point"></div>
+                      <div id="secondhand" class="second-hand arrow" ></div>
+                  </div>
+                  <div class="address">
+                    <h3>India</h3>
+                    <span>#2 4th Cross KSRTC Layout</span> <span>Chikkalsandra </span> <span>Bangalore - 560061 </span>
+                    <a href="tel:+91.80.41707002" class="tel">+91.80.41707002</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
