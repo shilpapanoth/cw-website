@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/app.css">
+  <link rel="stylesheet" type="text/css" href="/css/css3clock.css">
 
   <!-- Libraries -->
   <script type="text/javascript" src="/lib/angular/angular.min.js"></script>
@@ -21,9 +22,14 @@
 
   <!-- Controllers -->
   <script type="text/javascript" src="/js/home-controller.js"></script>
+  <script type="text/javascript" src="/js/about-us-controller.js"></script>
   <script type="text/javascript" src="/js/app-list-controller.js"></script>
   <script type="text/javascript" src="/js/app-detail-controller.js"></script>
-  <script type="text/javascript" src="/js/about-us-controller.js"></script>
+  <script type="text/javascript" src="/js/contact-us-controller.js"></script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="/scripts/clock.js"></script>
+  <script type="text/javascript" src="/scripts/moment.js"></script>
 
 </head>
 
@@ -48,7 +54,7 @@
                       <li><a ui-sref="about">ABOUT</a></li>
                       <li><a ui-sref="apps">OUR APPS</a></li>
                       <li><a ui-sref="co-innovation-center">CO INNOVATION CENTRE</a></li>
-                      <li><a>CONTACT</a></li>
+                      <li><a ui-sref="contact">CONTACT</a></li>
                   </ul>
               </div>
             <!-- /.navbar-collapse -->
@@ -74,5 +80,6 @@
   <script type="text/javascript" src="/lib/jquery-easing/jquery.easing.min.js"></script>
   <script src="/scripts/classie.js"></script>
   <script type="text/javascript" src="/scripts/cbpAnimatedHeader.js"></script>
-</body>
+
+  </body>
 </html>

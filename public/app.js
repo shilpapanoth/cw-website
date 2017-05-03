@@ -18,8 +18,8 @@
           controller: 'homeController'
         })
         .state('about', {
-          url: '/aboutUs',
-          templateUrl: '/html/aboutUs.html',
+          url: '/about',
+          templateUrl: '/html/about-us.html',
           controller: 'aboutController'
         })
         .state('apps', {
@@ -36,6 +36,11 @@
           url: '/details?id',
           templateUrl: '/html/app-detail.html',
           controller: 'appDetailController'
+        })
+        .state('contact', {
+          url: '/contact',
+          templateUrl: '/html/contact-us.html',
+          controller: 'contactController'
         })
     }
 
