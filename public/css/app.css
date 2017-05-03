@@ -632,6 +632,10 @@ footer ul.quicklinks {
     outline: 0;
 }
 
+.arrowDown > img {
+  width: 40px;
+}
+
 .text-bg{
 	background: url('../img/about-us-bg.png');
 	background-repeat: no-repeat;
