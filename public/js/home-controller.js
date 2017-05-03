@@ -6,7 +6,7 @@
 	homeController.$inject = ['$scope', '$rootScope'];
 
 	function homeController ($scope, $rootScope){
-
+		$rootScope.contactNav="";
 	}
 })()
 

@@ -6,6 +6,8 @@
 	contactController.$inject = ['$scope', '$rootScope'];
 
 	function contactController ($scope, $rootScope){
+
+		$rootScope.contactNav="navbar-shrink";
 		$("#aclock").each(function() {
         updateTime()
     }),

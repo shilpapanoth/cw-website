@@ -6,7 +6,7 @@
 	aboutController.$inject = ['$scope', '$rootScope', '$anchorScroll', '$location'];
 
 	function aboutController ($scope, $rootScope, $anchorScroll, $location){
-
+		$rootScope.contactNav="";
     $scope.gotoBottom = gotoBottom;
 
     function gotoBottom () {

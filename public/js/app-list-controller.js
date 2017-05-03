@@ -9,8 +9,9 @@
 
   function appListControler ($scope, $rootScope, $anchorScroll, $location) {
 
+    $rootScope.contactNav="";
     $scope.selectedCategoryIndex = 0;
-    $scope.selectedCategoryData = $rootScope.appData[0];    
+    $scope.selectedCategoryData = $rootScope.appData[0];
 
     $scope.selectCategory = selectCategory;
     $scope.gotoBottom = gotoBottom;
