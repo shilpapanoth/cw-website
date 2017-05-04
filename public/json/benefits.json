@@ -1,0 +1,27 @@
+{
+	"benefits" : [{
+		"name":"1. Massive Scalability",
+		"description":"Get consistent performance regardless of number of Users, complexity, or data volume.",
+		"icon":"/img/benefits/massive-scalability.png"
+	},{
+		"name":"2. Enterprise Grade",
+		"description":"Hybrid architecture to deliver the best of enterprise world to the Users.",
+		"icon":"/img/benefits/enterprise-grade.png"
+	},{
+		"name":"3. Plug & Play",
+		"description":"Automate with our fresh developed Apps and benefit your business immediately.",
+		"icon":"/img/benefits/plug-play.png"
+	},{
+		"name":"4. Work Experience (Wx)",
+		"description":"Designed to make work easy for Users - Yes, this will ween them away from the consumer apps.",
+		"icon":"/img/benefits/work-exp.png"
+	},{
+		"name":"5. Integrate with SAP",
+		"description":"Benefit your business with SAP integration and achieve comprehensive, responsive, adaptable, and streamlined system administration.",
+		"icon":"/img/benefits/integrate-sap.png"
+	},{
+		"name":"6. Fresh Apps",
+		"description":"Provision fresh apps to Users every week - IT dept has a new partner in their journey towards agility.",
+		"icon":"/img/benefits/fresh-apps.png"
+	}]
+}
