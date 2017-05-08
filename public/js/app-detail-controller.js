@@ -8,7 +8,8 @@
   appDetailController.$inject = ['$scope', '$rootScope'];
 
   function appDetailController ($scope, $rootScope) {
-    
+    $rootScope.contactNav="";
+    // console.log($rootScope.selectedProject);
   }
 
 }) ()

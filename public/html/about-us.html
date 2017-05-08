@@ -1,37 +1,50 @@
 <div ng-controller="aboutController">
-		<div class="about-bg">
-		 	<div class="d-overlay">
-				 <div class="headline">
-		        <div class="container">
-		          <h1 style="color: white;">About CherryWork.</h1>
-		          <div class="tagline">An enterprise digital apps suite that enables Employees, Customers, Vendors & Processes of an enterprise to collaborate, work in real time from anywhere at any time.</div>
-		        </div>
-		     </div>
-		     <div class="arrowDown">
-		          <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
-		     </div>
+	<div class="about-bg">
+	 	<div class="d-overlay">
+		 	<div class="headline">
+        <div class="container">
+        	<div>
+	          <div class="main-text">Cherrywork Digital Apps</div>
+	          <div class="sub-text">An enterprise digital apps suite on SAP Cloud Platform that enables Employees, Customers, Vendors & Processes of an SAP enterprise to collaborate, work in real time from anywhere at any time.</div>
+          </div>
+        </div>
      	</div>
-		</div>
-
-		<div id="aboutText" class="text-bg">
-			<div class="text-bg-filter">
-		    <div class="container">
-		    	<div class="text">
-		     			Cherrywork – An enterprise digital apps suite that enables Employees, Customers, Vendors & Processes of an enterprise to collaborate, work in real time from anywhere at any time.
-							Fresh Apps – Provision of Fresh Apps to users every week. IT Dept has a new partner in their journey towards agility
-							Work Experience (Wx) – Designed to make work easy for users. Yes, this will ween them away from consumer apps.
-							Enterprise Grade – Hybrid architecture to deliver the best of the enterprise world to the users.
-							A true app experience for SAP customers, Anywhere , Anytime”
-							Cherrywork is a venture of Incture Technologies.
-							<br>
-							<br>
-							Incture Technologies – Our Digital Apps are industry leading ! Incture has been delivering “technology enabled business innovation” to SAP customers, since 2006. Our Digital Apps solve multitude of business and technology problems, in ways smarter than was possible with the legacy/web applications. Digital Apps integrate people, processes, data, systems and IOT to make work easy, and deliver a shift in business performance and people experiences. To get the best from “App Economy” for your team or organisation, talk to us.
-							<br>
-							<br>
-							With offices in USA, India and South East Asia, we have been instrumental in technology enabled business innovations, at a number of customers across the world.
-							Find out more at <a href="www.incture.com">www.incture.com</a>
+     	<div class="stats">
+	     	<div ng-repeat="s in statistics" class="col-sm-3 col-xs-3 no-padding">
+					<div class="stat-s3">
+						<div class="s-count">{{s.count}} +</div>
+						<div class="s-text">{{s.text}}</div>
 					</div>
-		    </div>
-		   </div>
-		 </div>
+				</div>
+			</div>
+      <div class="arrowDown">
+        <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
+      </div>
+   	</div>
+	</div>
+	<!-- <div id="aboutDetail" class="about-container" style="background: #e6e6e6;">
+		<div class="container">
+			<div class="col-sm-12 no-padding">
+				<div ng-repeat="s in statistics" class="col-sm-3 no-padding">
+					<div class="stat-s3">
+						<div class="s-count">{{s.count}}+</div>
+						<div class="s-text">{{s.text}}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div class="about-container" id="aboutDetail">
+		<div class="container">
+			<div class="col-sm-12 no-padding">
+				<div ng-repeat="b in benefits" class="col-sm-4 no-padding">
+					<div class="benefit-s4">
+						<img class="b-icon" ng-src="{{b.icon}}">
+						<div class="b-name">{{b.name}}</div>
+						<div class="b-desc">{{b.description}}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

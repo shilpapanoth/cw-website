@@ -1,0 +1,15 @@
+{
+	"statistics" : [{
+		"count":"10K",
+		"text":"Users Live"},
+	{
+		"count":"10",
+		"text":"Satisfied Customers"
+	},{
+		"count":"24",
+		"text":"Apps Live"
+	},{
+		"count":"11K",
+		"text":"Satisfied Users"
+	}]
+}

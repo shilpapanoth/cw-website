@@ -1,33 +1,17 @@
 <div class="app-detail-container">
   <div class="cover-img">
-    <!-- <div class="heading"> heading </div> -->
   </div>
   <div class="app-detail">
     <div class="category-container">
-      <!-- <article class="post tag-outsourcing"> -->
-        <!-- <div class="card-details">
-          <div class="tag-name">
-            <a href="/insights/tag/outsourcing/">outsourcing</a>
-          </div> -->
           <header class="post-header">
-            <h2 class="post-title"><a ui-sref="app-detail">How to de-risk your outsourcing project</a></h2>
+            <div class="post-title post-lHeading">{{selectedProject.lHeading | uppercase}}</div>
           </header>
-          <footer class="post-meta">
-            <a href="/insights/author/amit-ashwini/">Amit Ashwini</a>
-            <time class="post-date" datetime="2016-11-07">07 November 2016</time>
-          </footer>
-          <section class="post-excerpt">
-            <p>While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines. </p>
-            <a class="read-more" ui-sref="app-detail">Read More</a>
+          <section class="post-lContent">
+            <p>{{selectedProject.lContent1}}</p>
+            <p>{{selectedProject.lContent2}}</p>
+            <p>{{selectedProject.lContent3}}</p>
           </section>
-        <!-- </div> -->
-      <!-- </article> -->
     </div>
-    <!-- <div class="app-title">
-      HOW TO DE-RISK YOUR OUTSOURCING PROJECT
-    </div>
-    <div class="app-content">
-      While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.
-    </div> -->
+
   </div>
 </div>

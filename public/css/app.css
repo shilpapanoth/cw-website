@@ -1,3 +1,10 @@
+
+body{
+    font-family: 'Roboto';
+    background: #e6e6e6;
+}
+
+
 .cover-img {
   background: url(https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg) top center no-repeat;
   height: 100vh;
@@ -58,19 +65,19 @@
 }
 
 .app-category > button {
-  border: 1px solid #999;
+  border: 1px solid #d4d4d4;
   margin-right: 15px;
   color: #999;
   margin-bottom: 30px;
   margin-top: 15px;
   font-size: 14px;
   padding: 5px 15px;
-  font-family: Graphik-Medium,Helvetica,Arial,sans-serif,Arial,sans-serif;
-  background: 0;
+  /*font-family: Graphik-Medium,Helvetica,Arial,sans-serif,Arial,sans-serif;*/
+  background: white;
 }
 
 .app-category > button.active {
-  background: #999;
+  background: #939598;
   color: #fff;
 }
 
@@ -117,14 +124,16 @@ button:focus {
 
 .card-details {
     position: relative;
-    padding: 20px;
-    background-color: #F8F8F8
+    /*padding: 20px;*/
+    background-color: #FFFFFF;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
 }
 
 .card-details .post-title {
     font-size: 23px!important;
     position: relative;
-    font-family: FoundersGrotesk-Bold,serif;
+    /*font-family: FoundersGrotesk-Bold,serif;*/
     letter-spacing: normal
 }
 
@@ -149,16 +158,20 @@ button:focus {
     font-size: 16px;
     text-align: left;
     color: #3E586B;
-    font-family: Graphik-Regular,Helvetica,Arial,sans-serif;
-    line-height: 28px
+    /*font-family: Graphik-Regular,Helvetica,Arial,sans-serif;*/
+    line-height: 28px;
+    width : 85%;
+    color: #989898;
 }
 
 .read-more {
-    position: absolute;
+    position: relative;
     bottom: 30px;
     font-size: 14px;
-    color: #333;
-    border-bottom: solid 2px #428FCD
+    /*color: #333;*/
+    /*border-bottom: solid 2px #428FCD*/
+    float: right;
+    padding-right: 50px;
 }
 
 .image-hover {
@@ -209,7 +222,7 @@ button:focus {
 .post-template .post-title {
     font-size: 50px;
     position: relative;
-    font-family: FoundersGrotesk-Bold,serif;
+    /*font-family: FoundersGrotesk-Bold,serif;*/
     letter-spacing: normal;
     text-transform: uppercase;
     color: #3E586B
@@ -234,7 +247,7 @@ button:focus {
     text-align: left;
     color: #3E586B;
     margin: 0 0 30px;
-    font-family: Graphik-Regular,Helvetica,Arial,sans-serif;
+    /*font-family: Graphik-Regular,Helvetica,Arial,sans-serif;*/
     line-height: 31px
 }
 
@@ -260,9 +273,21 @@ button:focus {
     z-index: 1
 }
 
+.post-lHeading{
+    color: #5a5a5a;
+    font-size: 30px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.post-lContent p{
+    color: #989898;
+    text-align: left;
+}
+
 .select-dropdown {
     text-align: center;
-    font-family: Graphik-Regular
+    /*font-family: Graphik-Regular*/
 }
 
 
@@ -346,7 +371,7 @@ button:focus {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 30px
+        /*padding: 30px;*/
     }
 
     .post-excerpt p {
@@ -356,7 +381,9 @@ button:focus {
         height: 76.2px;
         text-overflow: ellipsis;
         -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical
+        -webkit-box-orient: vertical;
+        width : 85%;
+        color: #989898;
     }
 
     .post-template .content {
@@ -368,11 +395,13 @@ button:focus {
 
 @media screen and (min-width: 1024px) {
     .card-details {
-        padding:40px
+        /*padding:40px;*/
     }
 
     .post-excerpt p {
-        height: 84.2px
+        height: 84.2px;
+        width : 85%;
+        color: #989898;
     }
 
     .card-item .image-hover {
@@ -411,6 +440,7 @@ button:focus {
 }
 
 /* -------------Caorousel styles -----------*/
+
 .carousel-img{
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -429,12 +459,51 @@ button:focus {
 }
 
 .carousel-overlay-text{
-	color:white;
-	display: inline-block;
+  color:white;
+  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  width: 75%;
+}
+
+.main-text{
+    color:white;
+    font-size: 40px;
+    padding: 20px 0;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.sub-text{
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 100;
+}
+
+@media(max-width:736px) {
+    .main-text{
+        color:white;
+        font-size: 30px;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .sub-text{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .s-count {
+        font-size: 30px !important;
+    }
+
+    .s-text {
+        font-size: 20px !important;
+    }
 }
 
 /* ----------------------Footer Styles --------------*/
@@ -446,7 +515,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     line-height: 70px;
 }
 
@@ -454,7 +523,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     line-height: 40px;
 }
 
@@ -469,7 +538,7 @@ footer ul.quicklinks {
 .copyright{
 	text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     line-height: 40px;
 }
 
@@ -481,7 +550,7 @@ footer ul.quicklinks {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     color: #fed136;
 }
 
@@ -512,7 +581,7 @@ footer ul.quicklinks {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 100;
     letter-spacing: 0px;
     color: #fff;
@@ -579,6 +648,38 @@ footer ul.quicklinks {
 	color: white;
 	font-weight: 500;
 }
+/* ---------------App page styles ------------- */
+
+.app-list-container{
+    /*padding-top : 100px;*/
+    min-height: 100vh;
+    /*background : #efefef;*/
+}
+
+.cat-icon-class{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.app-icon{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.app-icon-line{
+    border-top : 1px solid #d4d4d4;
+    position: relative;
+    margin-top: 75px;
+}
+
+.app-content-margin{
+    margin: 25px 0 0 25px;
+}
 
 /* -------------- details page css ------------ */
 
@@ -591,10 +692,21 @@ footer ul.quicklinks {
   text-align: center;
 }
 
+.post-header{
+  /*margin-top: 50px;*/
+  color: #4e4e4e;
+  width:100%;
+}
+
+@media (max-width: 736px){
+    .post-header{
+        margin-top: 75px;
+    }
+}
 /* --------------- About Us page Styles ----------------*/
 
 .about-bg{
-	background: url('../img/about-us2.jpg') 50% 50%;
+	background: url('../img/about-bg.jpg') 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -641,26 +753,91 @@ footer ul.quicklinks {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
-.text-bg-filter{
-	background : rgba(255, 255, 255, 0.84);
-}
-
-.text{
-	font-size: 15px;
-	font-weight: 400;
-	padding: 20px 30px;
+.about-container{
+    padding: 30px 20px;
+    background: white;
 }
 
 .hover {
     cursor: pointer;
 }
 
+.benefit-s4{
+    width: 75%;
+    text-align: center;
+    margin: 10%;
+}
+
+.left-container{
+    float: none;
+    width: 75%;
+    margin: auto;
+}
+
+@media (min-width: 968px) {
+    .left-container{
+        float: left;
+        width: 50%;
+    }
+}
+
+.b-icon{
+    height : 10rem;
+}
+.b-name{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px 0px;
+}
+
+.b-desc{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+    color: #596669;
+    padding: 5px 0;
+}
+
+.s-count{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.s-text{
+    font-size: 20px;
+    width: 85px;
+    text-align: center;
+    margin: auto;
+}
+
+.stats {
+    font-weight: 200;
+    position: absolute;
+    width: 100%;
+    bottom: 67px;
+}
+
+.stat-s3{
+    text-align: center;
+    margin: auto;
+    /*padding: 12%;
+    width: 70%;*/
+    /*border: 1px solid transparent;*/
+    /*border-radius: 50%;*/
+    /*background: white;*/
+    color: #fff;
+}
 /*--------------------- Contact Page Styles ------------------------*/
 
+.contact-content {
+    background-color: #fff;
+}
+
 #contact-us{
-	padding: 100px 0;
-	max-width: 780px;
+	padding: 100px 30px;
+	max-width: 880px;
   margin: 0 auto;
 }
 
@@ -670,7 +847,7 @@ footer ul.quicklinks {
     margin: 0 0 25px;
     line-height: normal;
     max-width: 1020px;
-    font-family: Graphik-Light;
+    /*font-family: Graphik-Light;*/
     color: #567387;
     padding: 0;
 }
@@ -683,7 +860,7 @@ footer ul.quicklinks {
 #contact-us input,textarea {
     width: 100%;
     height: 42px;
-    border-radius: 0;
+    /*border-radius: 0;*/
     color: #333;
     margin-bottom: 22px;
     font-size: 16px;
@@ -705,22 +882,45 @@ footer ul.quicklinks {
 
 .contact-information {
     display: inline-block;
-    width: 33.33%;
+    width: 50%;
     float: left;
 }
 
 .address {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     width: 100%;
     line-height: 1.3;
     float: left;
 }
-
+.contact-container:after {
+  position: absolute;
+  top: 0;
+  content: " ";
+  background: rgba(89, 119, 175, 0.8);
+  height: 100%;
+  width: 100%;
+  left: 0;
+}
 .contact-container{
-		background : rgba(93, 93, 93, 0.3);
+  position: relative;
+		/*background : rgba(93, 93, 93, 0.3);*/
 		/*color: white;*/
+  background: url(/img/contact-bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-container2{
-	  padding: 40px 0;
+  padding: 40px 15px;
+  z-index: 10;
+  position: relative;
+}
+
+.blank-line {
+  height: 40px;
 }

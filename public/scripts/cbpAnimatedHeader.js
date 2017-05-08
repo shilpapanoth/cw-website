@@ -15,7 +15,7 @@ var cbpAnimatedHeader = (function() {
 		navbar = document.getElementById("navcontainer");
 
 		didScroll = false,
-		changeHeaderOn = 300;
+		changeHeaderOn = 200;
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
@@ -28,14 +28,19 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
-		if ( sy >= changeHeaderOn ) {
-      document.getElementById("brand_logo").src="img/logo.svg";
+		if(location.href.includes("contact")){
 			classie.add( navbar, 'navbar-shrink' );
-    }
-		else {
-			classie.remove( navbar, 'navbar-shrink' );
-      document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
+		}
+		else{
+			if ( sy >= changeHeaderOn ) {
+	      // document.getElementById("brand_logo").src="img/logo.svg";
+				classie.add( navbar, 'navbar-shrink' );
+	    }
+			else {
+				classie.remove( navbar, 'navbar-shrink' );
+	      // document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
 
+			}
 		}
 		didScroll = false;
 	}
