@@ -20,6 +20,16 @@
               }, {
                 "fName": "Extends SAP CATS to Mobile and the web with advanced UX frameworks",
                 "fText": "In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us on Cherrywork@incture.com or by downloading from SAP App Center (www.sapcenter.com -> Search ‘Cherrywork Timesheet’)."
+              }],
+              "appImgs": [{
+                "carouselImg": "../img/app-images/time1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/time2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/time3.png",
+                "imgActive":""
               }]
             }, {
               "heading": "Leave & Attendance",
@@ -36,6 +46,16 @@
               }, {
                 "fName": "Intelligent Actionable Analytics",
                 "fText": "The tools also accumulate hours worked by each employee based on their time in/out entries and suggest the management list of top sluggers with eligible compensatory leaves. It also allows managers to reward employees by assigning extra leaves. It provides key insights to management such as usage of off work schedule hours, travel time spent by location and over/under working employees."
+              }],
+              "appImgs": [{
+                "carouselImg": "../img/app-images/leave1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/leave2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/leave3.png",
+                "imgActive":""
               }]
             },{
               "heading": "Performance Management",

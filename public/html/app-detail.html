@@ -6,18 +6,40 @@
           <header class="post-header2">
             <div class="post-title post-lHeading">{{selectedApp.lHeading | uppercase}}</div>
           </header>
-          <section class="post-lContent">
-            <p>{{selectedApp.lContent1}}</p>
-            <p>{{selectedApp.lContent2}}</p>
-            <p>{{selectedApp.lContent3}}</p>
-          </section>
-
-          <section class="post-fContent">
-            <div><h3>Features</h3></div>
-            <li class="list-unstyled" ng-repeat="f in selectedApp.features">
-              <b><strong>{{f.fName}}</strong></b> - {{f.fText}}
-            </li>
-          </section>
+          <div class="col-md-12 no-padding app-padding">
+            <section class="col-sm-12 col-md-6 no-padding post-lContent">
+            <h3>Overview</h3>
+              <p>{{selectedApp.lContent1}}</p>
+              <p>{{selectedApp.lContent2}}</p>
+              <p>{{selectedApp.lContent3}}</p>
+            </section>
+            <div class="col-sm-12 col-md-6 no-padding">
+              <div id="appCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#appCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#appCarousel" data-slide-to="1"></li>
+                  <li data-target="#appCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" style="height: 100%;">
+                  <div ng-repeat="i in selectedApp.appImgs" class="item" ng-class="i.imgActive">
+                      <div style="height: 300px;">
+                        <img ng-src="{{i.carouselImg}}" style="height: 400px;">
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+          <div class="f-bg">
+            <div class="f-overlay col-sm-12 no-padding app-padding">
+              <section class="post-fContent">
+                <h3>Features</h3>
+                <li ng-repeat="f in selectedApp.features">
+                  <b><strong>{{f.fName}}</strong></b> - {{f.fText}}
+                </li>
+              </section>
+            </div>
+          </div>
     </div>
 
   </div>
