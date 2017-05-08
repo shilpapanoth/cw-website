@@ -26,8 +26,11 @@ body{
   display: table;
 }
 
+.cover-img-detail {
+  background: url(../img/talent_banner.png) top center no-repeat;
+}
 .app-detail-container > .cover-img {
-  height: 75vh !important;
+  /*height: 75vh !important;*/
 }
 
 .cover-img > * {
@@ -87,7 +90,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .cover-img {
-    min-height: 600px;
+    /*min-height: 600px;*/
   }
 }
 
@@ -466,7 +469,7 @@ button:focus {
     }
 
     .category-container .post {
-        width: 33.33%
+        width: 25%
     }
 }
 
@@ -687,7 +690,7 @@ footer ul.quicklinks {
 
 .app-list-container{
     /*padding-top : 100px;*/
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     /*background : #efefef;*/
 }
 
@@ -696,6 +699,7 @@ footer ul.quicklinks {
     width: 40px;
     border: 2px solid white;
     border-radius: 50%;
+    background: white;
 }
 
 .app-icon{
@@ -720,15 +724,17 @@ footer ul.quicklinks {
 
 .app-detail {
   position: relative;
-  top: -200px;
-  margin: 0px 80px;
+  /*top: -350px;*/
+  margin: -330px 80px 80px 80px;
   padding: 30px;
   background-color: #fff;
   text-align: center;
+  /*margin-top: -330px;
+  margin-bottom: 30px;*/
 }
 
 .post-header{
-  /*margin-top: 50px;*/
+  margin-top: 50px;
   color: #4e4e4e;
   width:100%;
 }
@@ -812,6 +818,14 @@ footer ul.quicklinks {
     float: none;
     width: 75%;
     margin: auto;
+}
+
+.bHeading{
+    width:100%;
+    text-align: center;
+    color: #596669;
+    font-weight: 600;
+    margin: 10px 0;
 }
 
 @media (min-width: 968px) {
