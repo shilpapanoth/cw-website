@@ -32,12 +32,12 @@ var cbpAnimatedHeader = (function() {
 
 		}else{
 		if ( sy >= changeHeaderOn ) {
-      document.getElementById("brand_logo").src="img/logo.svg";
+      // document.getElementById("brand_logo").src="img/logo.svg";
 			classie.add( navbar, 'navbar-shrink' );
     }
 		else {
 			classie.remove( navbar, 'navbar-shrink' );
-      document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
+      // document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
 
 		}
 		}

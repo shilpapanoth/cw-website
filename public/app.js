@@ -47,41 +47,7 @@
     init.$inject = ['$rootScope'];
 
     function init ($rootScope) {
-      $rootScope.contactNav="";
-      $rootScope.appData = [{
-          'key': 'category 1',
-          'data' : [{
-            heading: 'How to de-risk your outsourcing project 1',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          },{
-            heading: 'How to de-risk your outsourcing project 2',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          }]
-        },{
-          'key': 'category 2',
-          'data' : [{
-            heading: 'How to de-risk your outsourcing project 3',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          },{
-            heading: 'How to de-risk your outsourcing project 4',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          },{
-            heading: 'How to de-risk your outsourcing project 5',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          }]
-        },{
-          'key': 'category 3',
-          'data' : [{
-            heading: 'How to de-risk your outsourcing project 6',
-            content: "While there are many myths as to the reasons why outsourcing projects fail, you'll be sure to have a successful engagement if you follow these six guidelines.",
-            bgImg: 'https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg'
-          }]
-        }]
+        $rootScope.contactNav="";
     }
 })()
 

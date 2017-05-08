@@ -1,0 +1,54 @@
+{
+  "appData" : [{
+          "key": "Talent Management Apps",
+          "data" : [{
+            "heading": "Timesheet",
+            "sContent": "Timesheet Application from Cherrywork makes it easy for employees to submit timesheets on-the-go and enables organizations to configure and implement the application in few weeks. Timesheet Application comes in two versions – Xtensive and Lite",
+            "lHeading": "Timesheet with Cherrywork",
+            "lTagline":"Timekeeping just got smarter",
+            "lContent1":"Cherrywork timesheet app keeps things simple, quick yet cool by allowing workers to record time against activities on-the-go (mobile) and also enable organizations to escape long implementation cycles followed by change management.",
+            "lContent2":"CW Timesheet Xtensive can work as a standalone application with capabilities to configure Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The application can integrate with SAP modules such as SAP PPM (or SAP PS), SAP HR, and SAP CO. The standalone timesheet is easy to configure and comes with multiple workflow options.",
+            "lContent3": "CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive.",
+            "bgImg": "../img/app-icons/AP-min.png",
+            "features":[{
+                "fName":"Seamless Integration with SAP",
+                "fText":"modules such as SAP PPM, SAP HR and SAP CO."
+            },{
+                "fName":"Capabilities to configure",
+                "fText":"Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The standalone timesheet is easy to configure and comes with multiple workflow options"
+            },{
+                "fName":"Extends SAP CATS to Mobile and the web with advanced UX frameworks",
+                "fText":"In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us on Cherrywork@incture.com or by downloading from SAP App Center (www.sapcenter.com -> Search ‘Cherrywork Timesheet’)."
+            }]
+          },{
+            "heading": "Leave & Attendance",
+            "sContent": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go. It’s out of the box capabilities to enable organizations to configure and implement the application within a few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite",
+            "lHeading": "Leave & Attendance with Cherrywork",
+            "lTagline":"Your actual leave & attendance manager",
+            "lContent":"",
+            "bgImg": "../img/app-icons/AP-min.png"
+          }]
+        },{
+          "key": "Supplier Collaboration Apps",
+          "data" : [{
+            "heading": "Project 3",
+            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
+            "bgImg": "../img/app-icons/AP-min.png"
+          },{
+            "heading": "Project 4",
+            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
+            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
+          },{
+            "heading": "Project 5",
+            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
+            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
+          }]
+        },{
+          "key": "Line of Business Apps",
+          "data" : [{
+            "heading": "Project 6",
+            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
+            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
+          }]
+        }]
+  }
