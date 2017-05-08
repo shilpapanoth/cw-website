@@ -1,35 +1,127 @@
 {
   "appData" : [{
-          "key": "Talent Management Apps",
-          "data" : [{
-            "heading": "Timesheet",
-            "sContent": "Timesheet Application from Cherrywork makes it easy for employees to submit timesheets on-the-go and enables organizations to configure and implement the application in few weeks. Timesheet Application comes in two versions – Xtensive and Lite",
-            "lHeading": "Timesheet with Cherrywork",
-            "lTagline":"Timekeeping just got smarter",
-            "lContent1":"Cherrywork timesheet app keeps things simple, quick yet cool by allowing workers to record time against activities on-the-go (mobile) and also enable organizations to escape long implementation cycles followed by change management.",
-            "lContent2":"CW Timesheet Xtensive can work as a standalone application with capabilities to configure Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The application can integrate with SAP modules such as SAP PPM (or SAP PS), SAP HR, and SAP CO. The standalone timesheet is easy to configure and comes with multiple workflow options.",
-            "lContent3": "CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive.",
-            "bgImg": "../img/app-icons/AP-min.png",
-            "features":[{
-                "fName":"Seamless Integration with SAP",
-                "fText":"modules such as SAP PPM, SAP HR and SAP CO."
+            "key": "Talent Management Apps",
+            "cIcon": "../img/categories/talent-mgmt.png",
+            "data": [{
+              "heading": "Timesheet",
+              "sContent": "Timesheet Application from Cherrywork makes it easy for employees to submit timesheets on-the-go and enables organizations to configure and implement the application in few weeks. Timesheet Application comes in two versions – Xtensive and Lite",
+              "lHeading": "Timesheet with Cherrywork",
+              "lTagline": "Timekeeping just got smarter",
+              "lContent1": "Cherrywork timesheet app keeps things simple, quick yet cool by allowing workers to record time against activities on-the-go (mobile) and also enable organizations to escape long implementation cycles followed by change management.",
+              "lContent2": "CW Timesheet Xtensive can work as a standalone application with capabilities to configure Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The application can integrate with SAP modules such as SAP PPM (or SAP PS), SAP HR, and SAP CO. The standalone timesheet is easy to configure and comes with multiple workflow options.",
+              "lContent3": "CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive.",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "Seamless Integration with SAP",
+                "fText": "modules such as SAP PPM, SAP HR and SAP CO."
+              }, {
+                "fName": "Capabilities to configure",
+                "fText": "Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The standalone timesheet is easy to configure and comes with multiple workflow options"
+              }, {
+                "fName": "Extends SAP CATS to Mobile and the web with advanced UX frameworks",
+                "fText": "In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us on Cherrywork@incture.com or by downloading from SAP App Center (www.sapcenter.com -> Search ‘Cherrywork Timesheet’)."
+              }]
+            }, {
+              "heading": "Leave & Attendance",
+              "sContent": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go. It’s out of the box capabilities to enable organizations to configure and implement the application within a few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite.",
+              "lHeading": "Leave & Attendance with Cherrywork",
+              "lTagline": "Your actual leave & attendance manager",
+              "lContent1": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go and enables organizations to configure and implement the application in few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite.",
+              "lContent2": "CW Leave and Attendance Xtensive can work as a standalone application with capabilities to configure leave eligibility, quotas for leave and on-duty by grades and locations, approval workflows, no leave or on-duty period by leave/on duty types, holiday calendars, optional leave, employee mini-master and user administration. This application can integrate with SAP modules such as SAP Personnel Administration, SAP CATS, SAP Time Management and SAP Payroll.",
+              "lContent3": "CW Leave and Attendance Lite extends SAP Time Management to Mobile and The Web with advanced UX frameworks that make recording time against leave, on duty and attendance a breeze. Both the versions come with advanced features such as vacation planner, manager’s view, minimum notice by leave type, compensatory leave policy, leave liability reports, leave encouragement triggers, leave rewards, travel time and replacement.",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "Encouraging advanced planning",
+                "fText": "This tool encourages employees to plan leaves in advance so that they get desired vacation timings without compromising on work. The tool achieves this by a combination of a couple of algorithms –periodically checking (rising) leave liability, analyzing team’s leave calendar and then triggering timely notifications to the employees who have unutilized balances."
+              }, {
+                "fName": "Intelligent Actionable Analytics",
+                "fText": "The tools also accumulate hours worked by each employee based on their time in/out entries and suggest the management list of top sluggers with eligible compensatory leaves. It also allows managers to reward employees by assigning extra leaves. It provides key insights to management such as usage of off work schedule hours, travel time spent by location and over/under working employees."
+              }]
             },{
-                "fName":"Capabilities to configure",
-                "fText":"Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The standalone timesheet is easy to configure and comes with multiple workflow options"
+              "heading": "Performance Management",
+              "sContent": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "lHeading": "Performance Management with Cherrywork",
+              "lTagline": "More than Performance Appraisal",
+              "lContent1": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "Calibration Wizard"
+              }, {
+                "fName": "Predictive Sales Performance"
+              },{
+                "fName": "Multiple Work Flow Options"
+              }]
             },{
-                "fName":"Extends SAP CATS to Mobile and the web with advanced UX frameworks",
-                "fText":"In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us on Cherrywork@incture.com or by downloading from SAP App Center (www.sapcenter.com -> Search ‘Cherrywork Timesheet’)."
+              "heading": "Talent Acquisition",
+              "sContent": "Cherrywork Talent Acquisition System differentiates itself by improving process flexibility (multiple workflows) and by improving collaboration with between stakeholders. The tool is divided into four key submodules – Requisition, Sourcing, Evaluation and Offer. They key differentiating features are requisition workflows based on vacancy type, multiple sourcing venues – portal, website, alumni, campus, partners, internal, referrals and contractors, evaluation workflows with calendar integration and offer fitment process.",
+              "lHeading": "Talent Acquisition with Cherrywork",
+              "lTagline": "Leading the ONE to You",
+              "lContent1": "Talent Acquisition is a key strategy as well as a challenge for the fast-growing organizations. It becomes difficult for recruiters to keep up with the progress on each position. Cherrywork’s TA Module is a comprehensive solution that automates coordination, approvals and follows up thus allowing recruiters to focus on sourcing activities. It encourages stakeholders to complete their pending activities thus attempting to improve TAT targets. The module has been divided into the following four sub modules."
+
+            },{
+              "heading": "On-Boarding",
+              "sContent": "Cherrywork On-boarding app improves new hire’s joining experience while significantly reducing manual activities for Onboarding teams. It improves coordination between internal functions and external agencies, making a collaborative partnership for onboarding a new hire. The app covers processes such as background verification, medical, travel, transportation of personal effects, visa (for expats), accommodation, asset allocation, hiring in SAP, Post joining activities such as paperwork, team orientation, feedback collection, etc.",
+              "lHeading": "On-Boarding with Cherrywork",
+              "lTagline": "Making the ‘new one’ feel inspired",
+              "lContent1": "",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "The processes can be re-arranged, added, removed based on the business process."
+              }, {
+                "fName": "Collect Employee Data"
+              },{
+                "fName": "Background Verification"
+              },{
+                "fName": "Medical Evaluation"
+              }, {
+                "fName": "Visa Application (for expats)"
+              },{
+                "fName": "Travel Booking – Employee and dependents"
+              },{
+                "fName": "Movement of personal items"
+              }, {
+                "fName": "Accommodation arrangements"
+              },{
+                "fName": "IT Asset Procurement & Allocation"
+              },{
+                "fName": "Admin activities - Desk Allocation, ID Card, Access Card"
+              },{
+                "fName": "Joining Day Formalities – Appointment letter, documentation validation"
+              },{
+                "fName": "Team Orientation"
+              },{
+                "fName": "Welcome Email"
+              },{
+                "fName": "New Joiner’s orientation/training"
+              },{
+                "fName": "Expense reimbursements"
+              },{
+                "fName": "Feedback collection"
+              },{
+                "fName": "The app improves collaboration by",
+                "fText": "integrating with third party systems from service providers such as BGV vendor, Hospitals, Travel Agents, logistics partners, lodging partners. The app integrates with SAP HCM’s Personnel Administration module and SAP SF Employee Central module for hiring action.  It also has dedicated login for internal stakeholders such as HR, IT, Admin and Accounts."
+              },{
+                "fName": "Allows OB Manager to configure the SLAs",
+                "fText": "Since the process requires collaboration between multiple stakeholders, the app allows OB Manager to configure the SLAs and triggers alerts, reminders and push notifications to encourage adherence. The analytics provides bird’s eye view of OB Manager on SLA defaulters thus suggesting prompt action."
+              }]
+            },{
+              "heading": "Learning Management",
+              "sContent": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "lHeading": "Performance Management with Cherrywork",
+              "lTagline": "More than Performance Appraisal",
+              "lContent1": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "Calibration Wizard"
+              }, {
+                "fName": "Predictive Sales Performance"
+              },{
+                "fName": "Multiple Work Flow Options"
+              }]
             }]
           },{
-            "heading": "Leave & Attendance",
-            "sContent": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go. It’s out of the box capabilities to enable organizations to configure and implement the application within a few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite",
-            "lHeading": "Leave & Attendance with Cherrywork",
-            "lTagline":"Your actual leave & attendance manager",
-            "lContent":"",
-            "bgImg": "../img/app-icons/AP-min.png"
-          }]
-        },{
           "key": "Supplier Collaboration Apps",
+          "cIcon":"../img/categories/supplier-collab.png",
           "data" : [{
             "heading": "Project 3",
             "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
@@ -45,6 +137,7 @@
           }]
         },{
           "key": "Line of Business Apps",
+          "cIcon":"../img/categories/line-buss.png",
           "data" : [{
             "heading": "Project 6",
             "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",

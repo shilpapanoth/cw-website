@@ -14,22 +14,22 @@
   </div>
   <div class="app-category" id="appCategory">
     <button ng-class="{'active': $index == selectedCategoryIndex}" ng-repeat="c in appData" ng-click="selectCategory($index)">
-      <img src="../img/app-icon.png" class="cat-icon-class"> {{c.key}}
+      <img ng-src="{{c.cIcon}}" class="cat-icon-class"> {{c.key}}
     </button>
   </div>
   <div class="category-container">
-    <article class="post tag-outsourcing" ng-repeat="a in selectedCategoryData.data">
-      <div ui-sref="app-detail" ng-click="selectProject(a)" class="card-details">
+    <article class="post tag-outsourcing" ng-repeat="(appIndex, a) in selectedCategoryData.data">
+      <div ui-sref="app-detail({appId: appIndex, catId: selectedCategoryIndex })" class="card-details">
         <div class="app-icon-line"></div>
         <img class="app-icon app-content-margin" ng-src="{{a.bgImg}}">
 
-        <header class="post-header app-content-margin" style="margin-top: 50px;">
+        <header class="post-header app-content-margin">
           <h2 class="post-title">{{a.heading}}</h2>
         </header>
 
         <section class="post-excerpt">
           <p> {{a.sContent}} </p>
-          <a class="read-more app-content-margin" ui-sref="app-detail">Read More ...</a>
+          <a class="read-more app-content-margin">Read More ...</a>
         </section>
       </div>
     </article>

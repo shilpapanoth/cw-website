@@ -33,7 +33,7 @@
           controller: 'appListControler'
         })
         .state('app-detail', {
-          url: '/details?id',
+          url: '/details?catId&appId',
           templateUrl: '/html/app-detail.html',
           controller: 'appDetailController'
         })

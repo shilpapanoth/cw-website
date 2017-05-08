@@ -10,16 +10,11 @@
   function appListControler ($scope, $rootScope, $anchorScroll, $location, $http) {
 
     getAppData();
-    // $rootScope.contactNav="navbar-shrink";
+    $rootScope.contactNav="";
     $scope.selectedCategoryIndex = 0;
 
     $scope.selectCategory = selectCategory;
     $scope.gotoBottom = gotoBottom;
-
-
-    $scope.selectProject = function(a){
-      $rootScope.selectedProject = a;
-    }
 
     function gotoBottom () {
       $location.hash('appCategory');
@@ -29,7 +24,7 @@
     function selectCategory (index) {
       $scope.selectedCategoryIndex = index;
       $scope.selectedCategoryData = $rootScope.appData[index];
-      console.log($scope.selectedCategoryData)
+      // console.log($scope.selectedCategoryData);
     }
 
     function getAppData(){

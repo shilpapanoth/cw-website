@@ -3,13 +3,20 @@
   </div>
   <div class="app-detail">
     <div class="category-container">
-          <header class="post-header">
-            <div class="post-title post-lHeading">{{selectedProject.lHeading | uppercase}}</div>
+          <header class="post-header2">
+            <div class="post-title post-lHeading">{{selectedApp.lHeading | uppercase}}</div>
           </header>
           <section class="post-lContent">
-            <p>{{selectedProject.lContent1}}</p>
-            <p>{{selectedProject.lContent2}}</p>
-            <p>{{selectedProject.lContent3}}</p>
+            <p>{{selectedApp.lContent1}}</p>
+            <p>{{selectedApp.lContent2}}</p>
+            <p>{{selectedApp.lContent3}}</p>
+          </section>
+
+          <section class="post-fContent">
+            <div><h3>Features</h3></div>
+            <li class="list-unstyled" ng-repeat="f in selectedApp.features">
+              <b><strong>{{f.fName}}</strong></b> - {{f.fText}}
+            </li>
           </section>
     </div>
 
