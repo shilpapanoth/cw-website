@@ -5,9 +5,9 @@
     .module('cwApp')
     .controller('appListControler', appListControler);
 
-  appListControler.$inject = ['$scope', '$rootScope', '$anchorScroll', '$location','$http'];
+  appListControler.$inject = ['$scope', '$rootScope', '$anchorScroll', '$location','$http', 'anchorSmoothScroll'];
 
-  function appListControler ($scope, $rootScope, $anchorScroll, $location, $http) {
+  function appListControler ($scope, $rootScope, $anchorScroll, $location, $http, anchorSmoothScroll) {
 
     getAppData();
     $rootScope.contactNav="";
@@ -18,7 +18,8 @@
 
     function gotoBottom () {
       $location.hash('appCategory');
-      $anchorScroll();
+      // $anchorScroll();
+      anchorSmoothScroll.scrollTo('appCategory');
     }
 
     function selectCategory (index) {

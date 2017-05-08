@@ -1,44 +1,50 @@
 <div ng-controller="aboutController">
-		<div class="about-bg">
-		 	<div class="d-overlay">
-				 <div class="headline">
-		        <div class="left-container">
-		        	<div style="margin:auto; width:75%;">
-			          <div class="main-text">Cherrywork Digital Apps</div>
-			          <div class="sub-text">An enterprise digital apps suite on SAP Cloud Platform that enables Employees, Customers, Vendors & Processes of an SAP enterprise to collaborate, work in real time from anywhere at any time.</div>
-		          </div>
-		        </div>
-		     </div>
-		     <div class="arrowDown">
-		          <a style="color:white; font-size: 25px;">
-		          <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
-		          <!-- <span class="glyphicon glyphicon-chevron-down"></span> --></a>
-		     </div>
+	<div class="about-bg">
+	 	<div class="d-overlay">
+		 	<div class="headline">
+        <div class="container">
+        	<div>
+	          <div class="main-text">Cherrywork Digital Apps</div>
+	          <div class="sub-text">An enterprise digital apps suite on SAP Cloud Platform that enables Employees, Customers, Vendors & Processes of an SAP enterprise to collaborate, work in real time from anywhere at any time.</div>
+          </div>
+        </div>
      	</div>
-		</div>
-		<div id="aboutDetail" class="about-container" style="background: #e6e6e6;">
-			<div class="container">
-				<div class="col-sm-12 no-padding">
-					<div ng-repeat="s in statistics" class="col-sm-3 no-padding">
-						<div class="stat-s3">
-							<div class="s-count">{{s.count}}+</div>
-							<div class="s-text">{{s.text}}</div>
-						</div>
+     	<div class="stats">
+	     	<div ng-repeat="s in statistics" class="col-sm-3 col-xs-3 no-padding">
+					<div class="stat-s3">
+						<div class="s-count">{{s.count}} +</div>
+						<div class="s-text">{{s.text}}</div>
+					</div>
+				</div>
+			</div>
+      <div class="arrowDown">
+        <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
+      </div>
+   	</div>
+	</div>
+	<!-- <div id="aboutDetail" class="about-container" style="background: #e6e6e6;">
+		<div class="container">
+			<div class="col-sm-12 no-padding">
+				<div ng-repeat="s in statistics" class="col-sm-3 no-padding">
+					<div class="stat-s3">
+						<div class="s-count">{{s.count}}+</div>
+						<div class="s-text">{{s.text}}</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="about-container">
-			<div class="container">
-				<div class="col-sm-12 no-padding">
-					<div ng-repeat="b in benefits" class="col-sm-4 no-padding">
-						<div class="benefit-s4">
-							<img class="b-icon" ng-src="{{b.icon}}">
-							<div class="b-name">{{b.name}}</div>
-							<div class="b-desc">{{b.description}}</div>
-						</div>
+	</div> -->
+	<div class="about-container" id="aboutDetail">
+		<div class="container">
+			<div class="col-sm-12 no-padding">
+				<div ng-repeat="b in benefits" class="col-sm-4 no-padding">
+					<div class="benefit-s4">
+						<img class="b-icon" ng-src="{{b.icon}}">
+						<div class="b-name">{{b.name}}</div>
+						<div class="b-desc">{{b.description}}</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 </div>

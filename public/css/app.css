@@ -1,4 +1,3 @@
-@import url('../css/roboto-regular.css');
 
 body{
     font-family: 'Roboto';
@@ -476,6 +475,7 @@ button:focus {
 }
 
 /* -------------Caorousel styles -----------*/
+
 .carousel-img{
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -505,15 +505,17 @@ button:focus {
 
 .main-text{
     color:white;
-    font-size: 35px;
+    font-size: 40px;
     padding: 20px 0;
+    line-height: 80px;
     font-weight: 700;
 }
 
 .sub-text{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 45px;
+    font-weight: 100;
 }
 
 @media(max-width:736px) {
@@ -528,6 +530,14 @@ button:focus {
         color: white;
         font-size: 20px;
         line-height: 40px;
+    }
+
+    .s-count {
+        font-size: 30px !important;
+    }
+
+    .s-text {
+        font-size: 20px !important;
     }
 }
 
@@ -774,6 +784,15 @@ footer ul.quicklinks {
     outline: 0;
 }
 
+.arrowDown > img {
+  width: 40px;
+}
+
+.text-bg{
+	background: url('../img/about-us-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .about-container{
     padding: 30px 20px;
     background: white;
@@ -823,7 +842,7 @@ footer ul.quicklinks {
 
 .s-count{
     font-size: 45px;
-    font-weight: bolder;
+    font-weight: 300;
 }
 
 .s-text{
@@ -833,21 +852,33 @@ footer ul.quicklinks {
     margin: auto;
 }
 
+.stats {
+    font-weight: 200;
+    position: absolute;
+    width: 100%;
+    bottom: 67px;
+}
+
 .stat-s3{
     text-align: center;
     margin: auto;
-    padding: 12%;
-    width: 70%;
-    border: 5px solid #478d43;
-    border-radius: 50%;
-    background: white;
+    /*padding: 12%;
+    width: 70%;*/
+    /*border: 1px solid transparent;*/
+    /*border-radius: 50%;*/
+    /*background: white;*/
+    color: #fff;
 }
 /*--------------------- Contact Page Styles ------------------------*/
 
+.contact-content {
+    background-color: #fff;
+}
+
 #contact-us{
-	padding: 100px 0;
-	max-width: 780px;
-    margin: 0 auto;
+	padding: 100px 30px;
+	max-width: 880px;
+  margin: 0 auto;
 }
 
 #contact-us .tagline {
@@ -869,7 +900,7 @@ footer ul.quicklinks {
 #contact-us input,textarea {
     width: 100%;
     height: 42px;
-    border-radius: 0;
+    /*border-radius: 0;*/
     color: #333;
     margin-bottom: 22px;
     font-size: 16px;
@@ -891,22 +922,45 @@ footer ul.quicklinks {
 
 .contact-information {
     display: inline-block;
-    width: 33.33%;
+    width: 50%;
     float: left;
 }
 
 .address {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     width: 100%;
     line-height: 1.3;
     float: left;
 }
-
+.contact-container:after {
+  position: absolute;
+  top: 0;
+  content: " ";
+  background: rgba(89, 119, 175, 0.8);
+  height: 100%;
+  width: 100%;
+  left: 0;
+}
 .contact-container{
-		background : rgba(93, 93, 93, 0.3);
+  position: relative;
+		/*background : rgba(93, 93, 93, 0.3);*/
 		/*color: white;*/
+  background: url(/img/contact-bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-container2{
-	  padding: 40px 0;
+  padding: 40px 15px;
+  z-index: 10;
+  position: relative;
+}
+
+.blank-line {
+  height: 40px;
 }

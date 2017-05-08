@@ -29,17 +29,18 @@ var cbpAnimatedHeader = (function() {
 	function scrollPage() {
 		var sy = scrollY();
 		if(location.href.includes("contact")){
-
-		}else{
-		if ( sy >= changeHeaderOn ) {
-      // document.getElementById("brand_logo").src="img/logo.svg";
 			classie.add( navbar, 'navbar-shrink' );
-    }
-		else {
-			classie.remove( navbar, 'navbar-shrink' );
-      // document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
-
 		}
+		else{
+			if ( sy >= changeHeaderOn ) {
+	      // document.getElementById("brand_logo").src="img/logo.svg";
+				classie.add( navbar, 'navbar-shrink' );
+	    }
+			else {
+				classie.remove( navbar, 'navbar-shrink' );
+	      // document.getElementById("brand_logo").src="img/cherrywork_logo_white@2x.png";
+
+			}
 		}
 		didScroll = false;
 	}

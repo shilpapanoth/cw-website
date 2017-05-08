@@ -3,9 +3,9 @@
 	angular
 	.module('cwApp')
 	.controller('aboutController',aboutController);
-	aboutController.$inject = ['$scope', '$rootScope', '$anchorScroll', '$location', '$http'];
+	aboutController.$inject = ['$scope', '$rootScope', '$anchorScroll', '$location', '$http', 'anchorSmoothScroll'];
 
-	function aboutController ($scope, $rootScope, $anchorScroll, $location, $http){
+	function aboutController ($scope, $rootScope, $anchorScroll, $location, $http, anchorSmoothScroll){
 		$rootScope.contactNav="";
     $scope.gotoBottom = gotoBottom;
     getBenefits();
@@ -13,7 +13,8 @@
 
     function gotoBottom () {
       $location.hash('aboutDetail');
-      $anchorScroll();
+      // $anchorScroll();
+      anchorSmoothScroll.scrollTo('aboutDetail');
     }
 
     function getBenefits (){

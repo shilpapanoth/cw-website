@@ -1,18 +1,19 @@
-
-<div ng-controller="contactController">
+<div ng-controller="contactController" class="contact-content">
 	<div id="contact-us">
      <div class="row">
         <div class="col-md-6 col-sm-6">
           <h3 class="tagline">How can we help you?</h3>
-          <p>Please call us at <a href="tel:+1.415.234.3611" class="tel">+1.415.234.3611</a> or complete this form to speak with a member of our team. We take pride in being responsive and we promise to follow up within one business day. We look forward to learning more about your product.</p>
+          <p>Work simpler, faster and sensible with powerful minutes of productivity. Speak to our experts or just request a demo by filling the form. Watch your organization transform.</p>
         </div>
         <div class="col-md-6 col-sm-6">
           <form action="/sendFeedback" method="POST" data-validate="parsley">
-	          <input type="text" name="contact_first_name" placeholder="Full Name" required="">
+	          <input type="text" class="form-control" name="contact_first_name" placeholder="Full Name" required="">
 	          <input type="email" name="contact_email" class="form-control" required="" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
-	          <input type="text" name="contact_phone" class="form-control" placeholder="Phone (optional)">
-	          <input type="text" name="tag" value="Contact Page" class="form-control" style="display: none">
-	          <textarea name="project_description" rows="3" required="" placeholder="Tell us about your project..."></textarea>
+	          <!-- <input type="text" name="contact_phone" class="form-control" placeholder="Phone (optional)"> -->
+            <input type="text" name="tag" class="form-control" placeholder="Company">
+            <input type="text" name="tag" class="form-control" placeholder="Job title">
+	          <input type="text" name="tag" class="form-control" placeholder="Country">
+	          <textarea name="project_description" rows="3" required="" placeholder="Comments.." class="form-control"></textarea>
 	          <button type="submit" class="button">Send message</button>
           </form>
         </div>
@@ -20,18 +21,19 @@
   </div>
   <div class="contact-container">
   		<div class="container contact-container2">
-        <div class="row">
-          <div class="col-lg-4">
+        <div class="">
+          <div class="col-sm-4 col-xs-12">
             <div class="email contact_us">
               <h3>Contact</h3>
-              <h4>For new business:</h4>
+              <!-- <h4>For new business:</h4>
               <a href="/contact" class="btn btn-primary">Contact Us</a>
-              <h4>For new career opportunities: </h4>
-              <a href="/jobs">info@cherrywork.net</a>
+              <h4>For new career opportunities: </h4> -->
+              <h5>info@cherrywork.net </h5>
             </div>
           </div>
-          <div class="col-lg-8">
-              <div  class="contact-information">
+          <div class="blank-line visible-xs col-xs-12"> </div>
+          <div class="col-sm-8 col-xs-12">
+              <div  class="contact-information pull-right">
                 <div id="aclock-usa">
                     <div class="division">
                       <div class="div"></div>
@@ -48,11 +50,13 @@
                 </div>
                 <div class="address">
                   <h3>United States</h3>
-                  <span>Incture LLC (USA) One-Oxford-Center</span> <span>301 Grant Street Suite 4300</span> <span>Pittsburgh PA - 15219 </span>
-                  <span>+1 (484) 443-4443</span>
+                  <div>Incture LLC (USA) One-Oxford-Center</div> 
+                  <div>301 Grant Street Suite 4300</div> 
+                  <div>Pittsburgh PA - 15219 </div>
+                  <div>+1 (484) 443-4443</div>
                 </div>
               </div>
-              <div class="contact-information">
+              <!-- <div class="contact-information">
                 <div id="aclock-sp">
                       <div class="division">
                         <div class="div"></div>
@@ -72,8 +76,8 @@
                     <span>Incture Technologies Private Limited 20-Maxwell Road</span> <span>#09-17 Maxwell House</span> <span>Singapore 069113</span>
                     <span>+65 64089726</span>
                   </div>
-              </div>
-              <div class="contact-information">
+              </div> -->
+              <div class="contact-information pull-right">
                   <div id="aclock">
                       <div class="division">
                         <div class="div"></div>
@@ -90,8 +94,11 @@
                   </div>
                   <div class="address">
                     <h3>India</h3>
-                    <span>Incture Smartapps City (ISAC) Salarpuria Sattva Aura</span> <span>Block-A Outer Ring Road </span> <span>Bangalore - 560103 </span>
-                    <span>+91-80-67832000</span>
+                    <div>Incture Smartapps City (ISAC) </div>
+                    <div> Salarpuria Sattva Aura</div>
+                    <div>Block-A Outer Ring Road </div> 
+                    <div>Bangalore - 560103 </div>
+                    <div>+91-80-67832000</div>
                   </div>
               </div>
           </div>
