@@ -507,7 +507,7 @@ button:focus {
     color:white;
     font-size: 40px;
     padding: 20px 0;
-    line-height: 80px;
+    /*line-height: 80px;*/
     font-weight: 700;
 }
 
@@ -751,6 +751,7 @@ footer ul.quicklinks {
 	background-size: cover;
 	height: 100vh;
 	background-position: center;
+  min-height: 600px;
 }
 
 .headline{
