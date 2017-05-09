@@ -283,6 +283,13 @@ button:focus {
     font-weight: bold;
 }
 
+.post-lTagline{
+    color: gray;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 0px;
+}
+
 .post-lContent{
     line-height: 25px;
 }
