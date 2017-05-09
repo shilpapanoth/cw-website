@@ -107,7 +107,7 @@ button:focus {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 0 15px
+    /*padding: 0 15px;*/
 }
 
 .category-container .post {
@@ -279,8 +279,19 @@ button:focus {
 .post-lHeading{
     color: #5a5a5a;
     font-size: 30px;
-    padding: 30px 0;
+    padding: 40px 0 20px 0;
     font-weight: bold;
+}
+
+.post-lTagline{
+    color: gray;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 0px;
+}
+
+.post-lContent{
+    line-height: 25px;
 }
 
 .post-lContent p{
@@ -292,9 +303,16 @@ button:focus {
 
 }
 
+.post-lContent h3{
+    text-align: left;
+    padding: 10px 5%;
+    color: #5a5a5a;
+    font-weight: bold;
+}
 .post-fContent{
     color : #6b6b6b;
     text-align: left;
+    line-height: 25px;
 }
 
 .post-fContent li{
@@ -310,6 +328,7 @@ button:focus {
 .post-fContent h3{
     padding: 5px 5%;
     color: #5a5a5a;
+    font-weight: bold;
 }
 
 .post-fContent li:before {
@@ -318,16 +337,35 @@ button:focus {
     font-family: 'Glyphicons Halflings';
     font-size: 9px;
     float: left;
-    margin-top: 4px;
+    /*margin-top: 4px;*/
     margin-left: -17px;
     color: #CCCCCC;
 }
 
+.f-bg{
+    background: url('../img/features.png');
+    width: 100%;
+}
+
+#appCarousel{
+    padding: 30px 0px;
+    height: 450px;
+    margin:auto;
+}
+
+#appCarousel ol{
+    background: rgba(0, 0, 0, 0.27);
+}
 .select-dropdown {
     text-align: center;
     /*font-family: Graphik-Regular*/
 }
 
+.f-overlay{
+   width: 100%;
+   background: rgba(255, 255, 255, 0.9);
+   height: 100%;
+}
 
 .post-template .post-footer {
     border: none;
@@ -725,12 +763,24 @@ footer ul.quicklinks {
 .app-detail {
   position: relative;
   /*top: -350px;*/
-  margin: -330px 80px 80px 80px;
-  padding: 30px;
+  margin: -50vh 80px 80px 80px;
+  /*padding: 30px;*/
   background-color: #fff;
   text-align: center;
   /*margin-top: -330px;
   margin-bottom: 30px;*/
+  border:1px solid #d4d4d4;
+}
+
+.app-padding{
+    padding: 30px;
+}
+
+@media (max-width: 736px){
+    .app-detail{
+        margin: -50vh 0px 0px 0px;
+        padding: 10px;
+    }
 }
 
 .post-header{
@@ -742,6 +792,7 @@ footer ul.quicklinks {
 .post-header2{
   color: #4e4e4e;
   width:100%;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 @media (max-width: 736px){
@@ -883,6 +934,11 @@ footer ul.quicklinks {
     /*border-radius: 50%;*/
     /*background: white;*/
     color: #fff;
+}
+
+.app-carousel{
+    width: 100%;
+    padding: 2px 5%;
 }
 /*--------------------- Contact Page Styles ------------------------*/
 

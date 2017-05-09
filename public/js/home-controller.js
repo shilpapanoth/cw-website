@@ -8,7 +8,7 @@
 	function homeController ($scope, $rootScope){
 		$rootScope.contactNav="";
     $('#mainCarousel').carousel({
-      interval: 3000
+      interval: 5000
     });
 	}
 })()

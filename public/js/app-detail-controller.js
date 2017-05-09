@@ -9,6 +9,9 @@
 
   function appDetailController ($scope, $rootScope, $state, $stateParams,$http) {
     $rootScope.contactNav="";
+    $('#appCarousel').carousel({
+      interval: 3000
+    });
     if(!$rootScope.appData){
     	getAppData();
     }else{
