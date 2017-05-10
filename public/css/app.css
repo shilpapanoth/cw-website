@@ -153,6 +153,33 @@ button:focus {
     width: 85%;
 }
 
+
+@media (max-width: 414px){
+    .card-details .post-title {
+        width: 70%;
+        font-size: 17px!important;
+        text-align: left;
+    }
+
+    .category-container .post {
+        width: 45%;
+        background: white;
+        text-align: center;
+        margin: 2.5%;
+        border: 1px solid #e2e2e2;
+
+    }
+
+    .app-content-margin{
+        margin: 25px 0 0 45px !important;
+    }
+
+    .post-header {
+        margin-top: 50px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
 .card-image {
     position: relative;
     display: block;
@@ -381,7 +408,7 @@ button:focus {
 }
 
 .f-bg{
-    background: url('../img/features.png');
+    background: url('../img/features.png') no-repeat;
     width: 100%;
 }
 
@@ -389,6 +416,28 @@ button:focus {
     padding: 30px;
     height: 400px;
     margin:auto;
+}
+
+#appCarousel img{
+    height: 350px;
+    margin: auto;
+}
+
+@media (max-width: 646px){
+    #appCarousel{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 415px){
+    #appCarousel img{
+        height: 230px;
+        margin: auto;
+    }
+
+    #appCarousel{
+        height: 300px;
+    }
 }
 
 #appCarousel ol{
@@ -407,7 +456,7 @@ button:focus {
 
 .f-overlay{
    width: 100%;
-   background: rgba(255, 255, 255, 0.9);
+   background: rgba(255, 255, 255, 0.67);
    height: 100%;
 }
 
@@ -591,8 +640,8 @@ button:focus {
 .main-text{
     color:white;
     font-size: 36px;
-    padding: 10px 0;
-    line-height: 80px;
+    padding: 15px 0;
+    /*line-height: 80px;*/
     font-weight: 700;
     text-shadow: 1px 1px 1px #CCCCCC;
 }
@@ -792,6 +841,11 @@ footer ul.quicklinks {
     background: white;
 }
 
+.cat-icon-small{
+    width: 100px;
+    height: 100px;
+}
+
 .app-icon{
     height: 90px;
     width: 90px;
@@ -840,7 +894,7 @@ footer ul.quicklinks {
 .post-header{
   margin-top: 50px;
   color: #4e4e4e;
-  width:100%;
+  /*width:100%;*/
 }
 
 .post-header2{
@@ -1084,6 +1138,7 @@ footer ul.quicklinks {
 
   background-position: center;
   background-repeat: no-repeat;
+  text-align: left;
 }
 
 .contact-container2{

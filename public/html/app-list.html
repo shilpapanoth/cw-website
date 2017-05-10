@@ -15,6 +15,11 @@
       <img ng-src="{{c.cIcon}}" class="cat-icon-class"> {{c.key}}
     </button>
   </div>
+
+  <!-- <div class="visible-sm visible-xs col-xs-12 no-padding">
+    <div ng-repeat="c in appData"><img ng-src="{{c.cIcon}}"
+    class="cat-icon-small col-xs-4 no-padding"></div>
+  </div> -->
   <div class="category-container">
     <article class="post tag-outsourcing" ng-repeat="(appIndex, a) in selectedCategoryData.data">
       <div ui-sref="app-detail({appId: appIndex, catId: selectedCategoryIndex })" class="card-details">
@@ -22,10 +27,10 @@
         <img class="app-icon app-content-margin" ng-src="{{a.bgImg}}">
 
         <header class="post-header app-content-margin">
-          <h2 class="post-title">{{a.heading}}</h2>
+          <div class="post-title">{{a.heading}}</div>
         </header>
 
-        <section class="post-excerpt">
+        <section class="hidden-sm hidden-xs post-excerpt">
           <p> {{a.sContent}} </p>
           <a class="read-more app-content-margin">Read More ...</a>
         </section>
