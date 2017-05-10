@@ -7,9 +7,9 @@
               "sContent": "Timesheet Application from Cherrywork makes it easy for employees to submit timesheets on-the-go and enables organizations to configure and implement the application in few weeks. Timesheet Application comes in two versions – Xtensive and Lite",
               "lHeading": "Timesheet with Cherrywork",
               "lTagline": "Timekeeping just got smarter",
-              "lContent1": "Cherrywork timesheet app keeps things simple, quick yet cool by allowing workers to record time against activities on-the-go (mobile) and also enable organizations to escape long implementation cycles followed by change management.",
-              "lContent2": "CW Timesheet Xtensive can work as a standalone application with capabilities to configure Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The application can integrate with SAP modules such as SAP PPM (or SAP PS), SAP HR, and SAP CO. The standalone timesheet is easy to configure and comes with multiple workflow options.",
-              "lContent3": "CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive.",
+              "lContent1": "<p>Cherrywork timesheet app keeps things simple, quick yet cool by allowing workers to record time against activities on-the-go (mobile) and also enable organizations to escape long implementation cycles followed by change management.</p>",
+              "lContent2": "<p><b><strong>CW Timesheet Xtensive</strong></b> can work as a standalone application with capabilities to configure Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The application can integrate with SAP modules such as SAP PPM (or SAP PS), SAP HR, and SAP CO. The standalone timesheet is easy to configure and comes with multiple workflow options.</p>",
+              "lContent3": "<p><b><strong>CW Timesheet Lite</strong></b> extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive.</p>",
               "bgImg": "../img/app-icons/timesheet.png",
               "features": [{
                 "fName": "Seamless Integration with SAP",
@@ -36,9 +36,9 @@
               "sContent": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go. It’s out of the box capabilities to enable organizations to configure and implement the application within a few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite.",
               "lHeading": "Leave & Attendance with Cherrywork",
               "lTagline": "Your actual leave & attendance manager",
-              "lContent1": "Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go and enables organizations to configure and implement the application in few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite.",
-              "lContent2": "CW Leave and Attendance Xtensive can work as a standalone application with capabilities to configure leave eligibility, quotas for leave and on-duty by grades and locations, approval workflows, no leave or on-duty period by leave/on duty types, holiday calendars, optional leave, employee mini-master and user administration. This application can integrate with SAP modules such as SAP Personnel Administration, SAP CATS, SAP Time Management and SAP Payroll.",
-              "lContent3": "CW Leave and Attendance Lite extends SAP Time Management to Mobile and The Web with advanced UX frameworks that make recording time against leave, on duty and attendance a breeze. Both the versions come with advanced features such as vacation planner, manager’s view, minimum notice by leave type, compensatory leave policy, leave liability reports, leave encouragement triggers, leave rewards, travel time and replacement.",
+              "lContent1": "<p>Cherrywork Leave and Attendance application allows users to apply for leave, on duty and attendance hours (time-in and time-out) on-the-go and enables organizations to configure and implement the application in few weeks. CW Leave and Attendance application comes in two variants – Xtensive and Lite.</p>",
+              "lContent2": "<p><b><strong>CW Leave and Attendance Xtensive</strong></b> can work as a standalone application with capabilities to configure leave eligibility, quotas for leave and on-duty by grades and locations, approval workflows, no leave or on-duty period by leave/on duty types, holiday calendars, optional leave, employee mini-master and user administration. This application can integrate with SAP modules such as SAP Personnel Administration, SAP CATS, SAP Time Management and SAP Payroll.</p>",
+              "lContent3": "<p><b><strong>CW Leave and Attendance Lite</strong></b> extends SAP Time Management to Mobile and The Web with advanced UX frameworks that make recording time against leave, on duty and attendance a breeze. Both the versions come with advanced features such as vacation planner, manager’s view, minimum notice by leave type, compensatory leave policy, leave liability reports, leave encouragement triggers, leave rewards, travel time and replacement.</p>",
               "bgImg": "../img/app-icons/leave.png",
               "features": [{
                 "fName": "Encouraging advanced planning",
@@ -62,7 +62,7 @@
               "sContent": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
               "lHeading": "Performance Management with Cherrywork",
               "lTagline": "More than Performance Appraisal",
-              "lContent1": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "lContent1": "<p>Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.</p>",
               "bgImg": "../img/app-icons/performance.png",
               "features": [{
                 "fName": "Calibration Wizard"
@@ -70,20 +70,44 @@
                 "fName": "Predictive Sales Performance"
               },{
                 "fName": "Multiple Work Flow Options"
+              }],
+              "appImgs": [{
+                "carouselImg": "../img/app-images/performance1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/performance2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/performance3.png",
+                "imgActive":""
               }]
             },{
               "heading": "Talent Acquisition",
               "sContent": "Cherrywork Talent Acquisition System differentiates itself by improving process flexibility (multiple workflows) and by improving collaboration with between stakeholders. The tool is divided into four key submodules – Requisition, Sourcing, Evaluation and Offer. They key differentiating features are requisition workflows based on vacancy type, multiple sourcing venues – portal, website, alumni, campus, partners, internal, referrals and contractors, evaluation workflows with calendar integration and offer fitment process.",
               "lHeading": "Talent Acquisition with Cherrywork",
               "lTagline": "Leading the ONE to You",
-              "lContent1": "Talent Acquisition is a key strategy as well as a challenge for the fast-growing organizations. It becomes difficult for recruiters to keep up with the progress on each position. Cherrywork’s TA Module is a comprehensive solution that automates coordination, approvals and follows up thus allowing recruiters to focus on sourcing activities. It encourages stakeholders to complete their pending activities thus attempting to improve TAT targets. The module has been divided into the following four sub modules.",
-              "bgImg": "../img/app-icons/talent_aquisition-min.png"
+              "lContent1": "<p>Talent Acquisition is a key strategy as well as a challenge for the fast-growing organizations. It becomes difficult for recruiters to keep up with the progress on each position. Cherrywork’s TA Module is a comprehensive solution that automates coordination, approvals and follows up thus allowing recruiters to focus on sourcing activities. It encourages stakeholders to complete their pending activities thus attempting to improve TAT targets. The module has been divided into the following four sub modules.</p>",
+              "lContent2": "<p><b><strong>Requisition:</strong></b> Organization has several types of open positions - Budgeted, Non-budgeted, Replacements – that requires different approval workflows based on the grade and location of a position.</p><p><b><strong>Sourcing:</strong></b>Once a requisition is opened and approved, a recruiter shall start sourcing it through several internal and external sources. CW supports a variety of sources as internal job postings, alumni, employee referrals, online job boards, campus, website, placement agencies and references. A recruiter can also search through the database of unsolicited or past applications to identify the matching profile. The module integrates with succession planning module thus shortlisting top (internal) candidates even if they have not applied.</p>",
+              "lContent3":"<p><b><strong>Evaluation:</strong></b>Evaluation is the most dynamic process in Recruitment. The tool allows hiring manager or HR BP or Recruiter to assign evaluation panel at different evaluation stages. The management can create multiple evaluation workflows that get triggered depending on the grade, location and function of the position.</p><p><b><strong>Offer:</strong></b>HR BP or Recruiter shall negotiate the offer with the shortlisted candidate. The system does fitment checks for the offer proposed and triggers the approval workflows for exceptions. A candidate shall accept/reject the offer on the portal. On acceptance, Cherrywork’s onboarding process is triggered.</p><p>Cherrywork also integrates with SAP HCM Recruitment, Personnel Administration and SF EC modules.</p>",
+              "bgImg": "../img/app-icons/talent_aquisition-min.png",
+              "appImgs": [{
+                "carouselImg": "../img/app-images/talent1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/talent2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/talent3.png",
+                "imgActive":""
+              }]
             },{
               "heading": "On-Boarding",
               "sContent": "Cherrywork On-boarding app improves new hire’s joining experience while significantly reducing manual activities for Onboarding teams. It improves coordination between internal functions and external agencies, making a collaborative partnership for onboarding a new hire. The app covers processes such as background verification, medical, travel, transportation of personal effects, visa (for expats), accommodation, asset allocation, hiring in SAP, Post joining activities such as paperwork, team orientation, feedback collection, etc.",
               "lHeading": "On-Boarding with Cherrywork",
               "lTagline": "Making the ‘new one’ feel inspired",
-              "lContent1": "",
+              "lContent1": "<p>On-boarding initiatives at any organizations look to achieve the following key objectives</p>",
+              "lContent2": "<li>Protect recruitment investments by engaging activities post offer to joining</li><li>Reduce time-to-productivity post joining</li><li>Adherence to onboarding process</li><li>Create a great first impression!</li>",
+              "lContent3": "<p>Cherrywork On-boarding app allows organizations to achieve the above objectives by digitizing well-designed process. The comprehensive app pulls new joiner’s data from CW’s TA Module and triggers the following processes.</p>",
               "bgImg": "../img/app-icons/onboarding.png",
               "features": [{
                 "fName": "The processes can be re-arranged, added, removed based on the business process."
@@ -123,45 +147,144 @@
               },{
                 "fName": "Allows OB Manager to configure the SLAs",
                 "fText": "Since the process requires collaboration between multiple stakeholders, the app allows OB Manager to configure the SLAs and triggers alerts, reminders and push notifications to encourage adherence. The analytics provides bird’s eye view of OB Manager on SLA defaulters thus suggesting prompt action."
+              }],
+              "appImgs": [{
+                "carouselImg": "../img/app-images/on-boarding1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/on-boarding2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/on-boarding3.png",
+                "imgActive":""
               }]
             },{
               "heading": "Learning Management",
-              "sContent": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
-              "lHeading": "Performance Management with Cherrywork",
-              "lTagline": "More than Performance Appraisal",
-              "lContent1": "Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.",
+              "sContent": "Cherrywork Learning Management System beats the best when it comes to identifying learning requirements, creating training plans, sourcing content from multiple digital content providers, classroom management, evaluation and certification.",
+              "lHeading": "Learning Management with Cherrywork",
+              "lTagline": "Train locally, relevant futuristically",
+              "lContent1": "<p>Changing business dynamics, compliance obligations, succession planning and employees’ career aspirations require organizations to periodically upgrade their workforce.</p>",
               "bgImg": "../img/app-icons/learning.png",
               "features": [{
-                "fName": "Calibration Wizard"
+                "fName": " Single Dashboard",
+                "fText":"CW LMS is a comprehensive app that allows L&D to control all the training initiatives – classroom and digital -  from a single dashboard. The app integrates with third party authoring tools and third-party digital content providers. CW LMS tool facilitates the process as below:<li><b><strong>Collect requirements :</strong></b>The app provides easy-to-use UX that allows stakeholders to update the requirements on the portal.</li><li><b><strong>Schedule Training :</strong></b>L&D Manager can analyze the responses and shortlists training requirements for the quarter and/or year. The app enables managers to gauge the interest by launching a dummy batch and receiving reservation requests. If enough interest is evident, the manager can launch a batch and generate enrollments. Employees interested in the training can submit the request for approval which further goes to the L&D coordinator for enrollment. Once enrolled, the participant receives notification and reminders for the training.</li><li><b><strong>Conduct and evaluate :</strong></b>A participant can take either online or classroom training as defined by the L&D Team. The app facilitates classroom, online and recorded training sessions. A faculty can suggest pre-session study material or quiz that participant shall take before arriving for the session. On completion of a batch, the faculty shall evaluate each participant on the system. The app enables the coordinator to mark attendance and also enables the participant to provide feedback on the training.</li><li><b><strong>Certify :</strong></b>L&D Manager/Coordinator shall then look at the performance of a participant, attendance and then decide to issue a certificate with a validity period. An employee can view/download the certificates and the same shall also be updated in employee’s IDP.</li>"
               }, {
-                "fName": "Predictive Sales Performance"
+                "fName": "Smarter Analytics",
+                "fText": "The app provides analytics for measuring effectiveness of the courses and also tracks employees'/functions' compliance towards Individual Development Plans."
               },{
-                "fName": "Multiple Work Flow Options"
+                "fName": "Integrations with Third Party & SAP Training & Development",
+                "fText":"The app integrates with third party SCORM compliant content providers and authorization tools. The content plays on CW’s advanced player that supports multiple video and audio formats. It also integrates with SAP Training & Development, e-Learning, Organizational Management and Personnel Administration modules. It also integrates with SAP SF PMGM module."
+              }],
+              "appImgs": [{
+                "carouselImg": "../img/app-images/learning1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/learning2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/learning3.png",
+                "imgActive":""
               }]
+            },{
+              "heading": "Career Planning",
+              "sContent": "Cherrywork Career Planning System provides an employee with a clear path for career growth and the skills, certifications and education qualifications required for the next job. The system also recommends internal training that candidate shall attend to get promoted to the next level in his career path.",
+              "lHeading": "Career Planning with Cherrywork",
+              "lTagline": "The right path for your employees",
+              "lContent1": "<p>Cherrywork Career Planning System provides an employee with a clear path for career growth and the skills, certifications and education qualifications required for the next job. The system also recommends internal training that candidate shall attend to get promoted to the next level in his career path.</p>",
+              "bgImg": "../img/app-icons/career-min.png"
+            },{
+              "heading": "Succession Planning",
+              "sContent": "Cherrywork Succession Planning System allows HR team to identify succession for each key positions. HR Team can then identify the successors and work on bridging the delta, if any for the successor to take over the key position in case the position gets vacant.",
+              "lHeading": "Succession Planning with Cherrywork",
+              "lTagline": "From Fresher to Inspirers",
+              "lContent1": "<p>Cherrywork Succession Planning System allows HR team to identify succession for each key positions. HR Team can then identify the successors and work on bridging the delta, if any for the successor to take over the key position in case the position gets vacant.</p>",
+              "bgImg": "../img/app-icons/succesion planning-min.png"
+            },{
+              "heading": "Travel Management System",
+              "sContent": "Cherrywork Travel Management System allows employees to book a flight, hotel, cab, bus and train on mobile. The travel request is then submitted to a manager before getting processed by the travel desk. CW TMS is a light tool that can be implemented out of- the box and seamlessly integrated with SAP’s Travel Management system.",
+              "lHeading": "Travel Management with Cherrywork",
+              "lTagline": "Employee Travel by a Swipe",
+              "lContent1": "<p>Cherrywork Travel Management System allows employees to book a flight, hotel, cab, bus and train on mobile. The travel request is then submitted to a manager before getting processed by the travel desk. CW TMS is a light tool that can be implemented out of- the box and seamlessly integrated with SAP’s Travel Management system.</p>",
+              "bgImg": "../img/app-icons/travel_mgmt.png"
+            },{
+              "heading": "Expense Reimbursement System",
+              "sContent": "Cherrywork Expense Reimbursement System enables employees to claim both travel and non-travel expenses. The tool integrates with Corporate Credit Card companies to retrieve the expense items which can be then be mapped against travel dates. An employee can also claim non-travel expenses by uploading a digital copy of receipts. On approval, the system updates SAP TM and Finance for payment processing.",
+              "lHeading": "Expense Reimbursement with Cherrywork",
+              "lTagline": "Your claim cycle just got a makeover",
+              "lContent1": "<p>Cherrywork Expense Reimbursement System enables employees to claim both travel and non-travel expenses. The tool integrates with Corporate Credit Card companies to retrieve the expense items which can be then be mapped against travel dates. An employee can also claim non-travel expenses by uploading a digital copy of receipts. On approval, the system updates SAP TM and Finance for payment processing.</p>",
+              "bgImg": "../img/app-icons/expense_mgmt.png"
             }]
           },{
           "key": "Supplier Collaboration Apps",
           "cIcon":"../img/categories/supplier.png",
           "data" : [{
-            "heading": "Project 3",
-            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
-            "bgImg": "../img/app-icons/AP-min.png"
-          },{
-            "heading": "Project 4",
-            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
-            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
-          },{
-            "heading": "Project 5",
-            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
-            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
-          }]
+              "heading": "AP Automation",
+              "sContent": "AP automation streamlines your end-to-end operations by enabling you to capture invoices from virtually anywhere, extract relevant data without human intervention, and at all times gain visibility to the financial processes that support or subvert your business success. And with automation accelerating the entire operation, you’ll be ideally positioned to improve cash flow by capitalizing on early payment bonuses.",
+              "lHeading": "AP Automation with Cherrywork",
+              "lTagline": "Renovate your Invoice Processing",
+              "lContent1": "<p>When invoice processing and cash management are the lifeblood of your organization, visibility and optimization can transform mere efficiency into full-fledged operational excellence.  That’s a status every well-managed business strives to achieve.</p>",
+              "lContent2": "<p>AP automation streamlines your end-to-end operations by enabling you to capture invoices from virtually anywhere, extract relevant data without human intervention, and at all times gain visibility to the financial processes that support or subvert your business success. And with automation accelerating the entire operation, you’ll be ideally positioned to improve cash flow by capitalizing on early payment bonuses.</p>",
+              "bgImg": "../img/app-icons/AP-min.png",
+              "features": [{
+                "fName": "Reduced AP Processing Cost ",
+                "fText": "Reduced transaction processing cost. Reduced FTE redeployments with faster turnaround time due to automation. This results in a reduction in paper storage and retention cost. Also, reduced exception and prioritization of invoices based on supplier/invoice value etc."
+              }, {
+                "fName": "Improved Visibility",
+                "fText": "Gain End to end visibility and better predictive alerts and notifications in cases of exceptions. It allows a single version of truth for both supplier and internal teams. It equips User workload with process reports to measure KPIs. Leading to a strengthened vendor relationship and promote collaboration."
+              },{
+                "fName": "Increased Returns in Available Cash",
+                "fText":"Helps take advantage of discounts by early payments and improved data capture for better control over spend. Resulting in the optimized working capital."
+              },{
+                "fName": "Compliance",
+                "fText":"Ensuring VAT or other tax compliance and reduced fraud due to a smart Audit trail."
+              }]
+            },{
+              "heading": "Supplier Network Collaboration",
+              "sContent": "Strengthen your supply chain with supplier network collaboration. Onboard partners efficiently, provide broader collaboration, access actionable insights and increase visibility in your supply chain.",
+              "lHeading": "Supplier Network Collaboration with Cherrywork",
+              "lTagline": "Strengthen your supply chain",
+              "lContent1": "<p>Supplier Network Collaboration is a key area in supply chain management that enables collaborative planning and exchange of documents between you and your suppliers.</p>",
+              "bgImg": "../img/app-icons/supplier network-min.png",
+              "features": [{
+                "fName": "Supports end-to-end supply chain operations",
+                "fText": "updating product prices, updating POs, raising ASN, raising invoices, self-service, end-to-end visibility."
+              }, {
+                "fName": "B2B connectivity",
+                "fText": "with your partners to exchange documents."
+              }]
+            },{
+              "heading": "Collaborative Logistics",
+              "sContent": "Significant efficiencies can be realized across the supply chain when all stakeholders (enterprise, vendors, and carriers) can collaborate in real time through a standardized logistics execution platform. This type of interaction is also known as collaborative logistics.",
+              "lHeading": "Collaborative Logistics with Cherrywork",
+              "lTagline": "All empowered",
+              "lContent1": "<p>The cornerstone of collaborative logistics is timely visibility. Data about orders, inventory, transportation, and spending need to all funnel into a common denominator big data repository and be readily accessible.</p>",
+              "lContent2":"<p>A Web-native execution platform lends itself to the collaborative logistics execution model as it is meant to operate on the edge of the enterprise. Considered high tech for its complicated logistics algorithms in the back end, and low tech for ease of use on the front end, this type of solution empowers any stakeholder in the supply chain. As you start collaborating with a carrier agnostic system here is what you can expect:</p>",
+              "lContent3":"<li>Visibility into transportation orders, purchase orders, shipments, exceptions, invoices, and spend</li><li>Real-time monitoring</li><li>Real-time reporting. No waiting for reports or data to be input</li><li>Live. If it is happening, you know about it</li><li>Everyone in the supply chain is collaborating around the same data</li>",
+              "bgImg": "../img/app-icons/logisstics-min.png"
+            }]
         },{
           "key": "Line of Business Apps",
           "cIcon":"../img/categories/lob.png",
           "data" : [{
-            "heading": "Project 6",
-            "content": "While there are many myths as to the reasons why outsourcing projects fail, youll be sure to have a successful engagement if you follow these six guidelines.",
-            "bgImg": "https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg"
-          }]
+              "heading": "Product Information Management",
+              "sContent": "PIM systems generally need to support multiple geographic locations, multilingual data, and maintenance and modification of product information within a centralized catalog. Information kept by a business can be scattered throughout departments and held by employees or systems, instead of being available centrally; data may be saved in various formats, or only be available in hard copy form. Information may be needed for detailed product descriptions with prices, or calculating freight costs. PIM represents a solution for centralized, media-independent data maintenance, as well as efficient data collection, management, refinement and output.",
+              "lHeading": "Product Information Management with Cherrywork",
+              "lTagline": "Systematic Collaboration enhancing Businesses",
+              "lContent1": "<p>PIM systems generally need to support multiple geographic locations, multilingual data, and maintenance and modification of product information within a centralized catalog. Information kept by a business can be scattered throughout departments and held by employees or systems, instead of being available centrally; data may be saved in various formats, or only be available in hard copy form. Information may be needed for detailed product descriptions with prices, or calculating freight costs. PIM represents a solution for centralized, media-independent data maintenance, as well as efficient data collection, management, refinement and output.</p>",
+              "bgImg": "../img/app-icons/PIM-min.png",
+              "features": [{
+                "fName": "Editing of Product Details"
+              }, {
+                "fName": "New Product Introduction"
+              },{
+                "fName": "Managing Product Information"
+              },{
+                "fName": "Categorizing product/creation of product categories"
+              },{
+                "fName": "Differentiating product information for multi-channel distribution"
+              },{
+                "fName": "Distributing product info to multiple systems"
+              }]
+            }]
         }]
   }
