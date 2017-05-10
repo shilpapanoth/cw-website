@@ -1,5 +1,5 @@
 <div class="app-detail-container">
-  <div class="overlay cover-img cover-img-detail">
+  <div class="overlay cover-img cover-img-detail" style="height: 80vh;">
   </div>
   <div class="app-detail">
     <div class="category-container">
@@ -8,7 +8,7 @@
             <div class="post-lTagline">- {{selectedApp.lTagline}}</div>
             </div>
           </header>
-          <div class="col-md-12 no-padding app-padding">
+          <div class="col-md-12 no-padding">
             <div class="col-xs-12 col-md-6 no-padding" style="float: right;">
               <div ng-show="selectedApp.appImgs" id="appCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -19,13 +19,13 @@
                 <div class="carousel-inner" style="height: 100%;">
                   <div ng-repeat="i in selectedApp.appImgs" class="item" ng-class="i.imgActive">
                       <div>
-                        <img ng-src="{{i.carouselImg}}" style="height: 400px;">
+                        <img ng-src="{{i.carouselImg}}" style="height: 350px;margin: auto;">
                       </div>
                   </div>
                 </div>
             </div>
           </div>
-            <section class="no-padding post-lContent">
+            <section class="no-padding post-lContent app-padding">
             <h3>Overview</h3>
               <div ng-bind-html="lContent1"></div>
               <div ng-bind-html="lContent2"></div>

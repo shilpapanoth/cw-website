@@ -11,6 +11,8 @@
 
     getAppData();
     $rootScope.contactNav="";
+    $rootScope.address = "";
+
     $scope.selectedCategoryIndex = 0;
 
     $scope.selectCategory = selectCategory;

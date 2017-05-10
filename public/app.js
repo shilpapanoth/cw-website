@@ -48,6 +48,7 @@
 
     function init ($rootScope) {
         $rootScope.contactNav="";
+        $rootScope.address ="";
     }
 })()
 

@@ -63,7 +63,8 @@
     </nav>
     <div ui-view></div>
     <footer class='footer-style'>
-        <div class="container">
+        <div ng-show="address" ng-include="'/html/address.html'"></div>
+        <div class="container footer-content">
             <div class="row">
                 <div >
                   <center>

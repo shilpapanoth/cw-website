@@ -8,6 +8,7 @@
 	function contactController ($scope, $rootScope){
 
 		$rootScope.contactNav = "navbar-shrink";
+		$rootScope.address = true;
 		$("#aclock").each(function() {
         updateTime()
     }),
