@@ -1,7 +1,7 @@
 <div ng-controller="aboutController">
 	<div class="about-bg">
 	 	<div class="d-overlay">
-		 	<div class="headline" style="top:41%;">
+		 	<div class="headline about-heading">
         <div class="container">
         	<div>
 	          <div class="main-text">Cherrywork Digital Apps</div>
@@ -9,7 +9,7 @@
           </div>
         </div>
      	</div>
-     	<div class="stats">
+     	<div class="stats hidden-xs">
 	     	<div ng-repeat="s in statistics" class="col-sm-3 col-xs-3 no-padding">
 					<div class="stat-s3">
 						<div class="s-count">{{s.count}} +</div>
@@ -22,21 +22,33 @@
       </div>
    	</div>
 	</div>
-	<!-- <div id="aboutDetail" class="about-container" style="background: #e6e6e6;">
-		<div class="container">
-			<div class="col-sm-12 no-padding">
-				<div ng-repeat="s in statistics" class="col-sm-3 no-padding">
-					<div class="stat-s3">
-						<div class="s-count">{{s.count}}+</div>
-						<div class="s-text">{{s.text}}</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
+	
 	<div class="about-container" id="aboutDetail">
-		<div class="container">
-			<div class="col-sm-12 no-padding">
+  	  <div class="container visible-xs">
+        <div class="col-xs-12 no-padding equal-height">
+          <div ng-repeat="s in statistics" class="col-xs-3" style="min-width: 180px; margin:auto;">
+            <div class="circle">
+              <div class="circle__inner">
+                <div class="circle__wrapper">
+                  <div class="circle__content">
+                  <!-- Circle text -->
+                    <div>{{s.count}} +</div>
+                    <div style="font-size: 18px;">{{s.text}}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="stat-s3">
+              <div class="s-count">{{s.count}}+</div>
+              <div class="s-text">{{s.text}}</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+
+  	<div class="container">
+			<div class="col-sm-12 no-padding equal-height">
 			<!-- <h2 class="bHeading">Features</h2> -->
 				<div ng-repeat="b in benefits" class="col-sm-4 no-padding">
 					<div class="benefit-s4">
