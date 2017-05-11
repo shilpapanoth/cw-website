@@ -7,7 +7,6 @@
 
 	function homeController ($scope, $rootScope){
 		$rootScope.contactNav="";
-		$rootScope.address = "";
 
     $('#mainCarousel').carousel({
       interval: 5000

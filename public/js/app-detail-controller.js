@@ -13,7 +13,6 @@
     $scope.setSceTofText = $sce.trustAsHtml;
 
     $rootScope.contactNav="";
-    $rootScope.address = "";
     /*$('#appCarousel').carousel({
       interval: 3000
     });*/

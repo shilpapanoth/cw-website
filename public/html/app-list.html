@@ -10,18 +10,21 @@
       <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
     </div>
   </div>
-  <div class="app-category" id="appCategory">
+  <div class="app-category hidden-xs" id="appCategory">
     <button ng-class="{'active': $index == selectedCategoryIndex}" ng-repeat="c in appData" ng-click="selectCategory($index)">
       <img ng-src="{{c.cIcon}}" class="cat-icon-class"> {{c.key}}
     </button>
   </div>
 
-  <!-- <div class="visible-sm visible-xs col-xs-12 no-padding">
-    <div ng-repeat="c in appData"><img ng-src="{{c.cIcon}}"
-    class="cat-icon-small col-xs-4 no-padding"></div>
-  </div> -->
-  <div class="category-container">
-    <article class="post tag-outsourcing" ng-repeat="(appIndex, a) in selectedCategoryData.data">
+  <div class="visible-xs col-xs-12">
+    <div ng-repeat="c in appData"  ng-click="selectCategory($index)"
+    class="col-xs-4 equal-height">
+      <img ng-src="{{c.cIcon}}" class="cat-icon-small" ng-class="{'cat-icon-active': $index == selectedCategoryIndex}"/>
+      <div class="cat-key" ng-class="{'cat-key-active': $index == selectedCategoryIndex}">{{c.key}}</div>
+    </div>
+  </div>
+  <div class="category-container equal-height">
+    <article class="post tag-outsourcing equal-height" ng-repeat="(appIndex, a) in selectedCategoryData.data">
       <div ui-sref="app-detail({appId: appIndex, catId: selectedCategoryIndex })" class="card-details">
         <div class="app-icon-line"></div>
         <img class="app-icon app-content-margin" ng-src="{{a.bgImg}}">

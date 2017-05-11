@@ -7,7 +7,6 @@
 
 	function aboutController ($scope, $rootScope, $anchorScroll, $location, $http, anchorSmoothScroll){
 		$rootScope.contactNav="";
-		$rootScope.address = "";
     $scope.gotoBottom = gotoBottom;
     getBenefits();
     getStatistics();
