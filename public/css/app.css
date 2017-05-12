@@ -923,7 +923,7 @@ body.menu-open > #side-bar-overlay {
 /* ---------------App page styles ------------- */
 
 .app-list-container{
-    padding-top : 90px;
+    padding-top : 75px;
     min-height: 91vh;
     /*background : #efefef;*/
 }
@@ -948,7 +948,7 @@ body.menu-open > #side-bar-overlay {
 }
 
 .cat-icon-active{
-    background: rgba(255, 255, 255, 0.34);
+    background: white;
     -webkit-box-shadow: 0px 8px 18px 0px rgb(118, 151, 199);
     -moz-box-shadow: 0px 8px 18px 0px rgb(118, 151, 199);
     box-shadow: 0px 8px 18px 0px rgb(118, 151, 199);
@@ -1006,8 +1006,8 @@ body.menu-open > #side-bar-overlay {
 
 @media (max-width: 736px){
     .app-detail{
-        margin: -50vh 0px 0px 0px;
-        padding: 10px;
+        margin: -10vh 0px 0px 0px !important;
+        /*padding: 10px;*/
     }
 }
 
