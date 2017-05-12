@@ -10,7 +10,7 @@
   function appListControler ($scope, $rootScope, $anchorScroll, $location, $http, anchorSmoothScroll) {
 
     getAppData();
-    $rootScope.contactNav="";
+    $rootScope.contactNav="navbar-shrink";
 
     $scope.selectedCategoryIndex = 0;
 

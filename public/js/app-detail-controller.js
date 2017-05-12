@@ -13,12 +13,13 @@
     $scope.setSceTofText = $sce.trustAsHtml;
 
     $rootScope.contactNav="";
-    /*$('#appCarousel').carousel({
+    $('#appCarousel').carousel({
       interval: 3000
-    });*/
+    });
     if(!$rootScope.appData){
     	getAppData();
     }else{
+      $scope.selectedCategoryData = $rootScope.appData[$stateParams.catId];
     	$scope.selectedApp = $rootScope.appData[$stateParams.catId].data[$stateParams.appId];
       $scope.setSceToContent();
     }
@@ -29,7 +30,7 @@
         url: '/json/app-data.json'
       }).then(function(data){
         $rootScope.appData = data.data.appData;
-        $scope.selectedCategoryData = $rootScope.appData[0];
+        $scope.selectedCategoryData = $rootScope.appData[$stateParams.catId];
         $scope.selectedApp = $rootScope.appData[$stateParams.catId].data[$stateParams.appId];
         $scope.setSceToContent();
       },function(error) {

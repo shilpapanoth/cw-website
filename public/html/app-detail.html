@@ -1,11 +1,16 @@
 <div class="app-detail-container">
-  <div class="overlay cover-img cover-img-detail" style="height: 80vh;">
+  <div class="overlay cover-img cover-img-detail" style="height: 45vh;">
   </div>
   <div class="app-detail">
     <div class="category-container">
           <header class="post-header2">
-            <div class="post-title post-lHeading">{{selectedApp.lHeading | uppercase}}
-            <div class="post-lTagline">- {{selectedApp.lTagline}}</div>
+            <div class="post-title post-lHeading">
+              <a ui-sref="apps"><img src="../img/back.png" class="back-btn"></a>
+              <img class="app-icon-detail" ng-src="{{selectedApp.bgImg}}">
+              {{selectedApp.lHeading | uppercase}}
+              <a title="Click to view vedio"><img src="../img/vedio.png" class="vedio_icon"></a>
+              <a ng-href="{{selectedCategoryData.brochure}}" title="Click to download the brochure" download><img src="../img/brochure.png" class="brochure_icon"></a>
+              </div>
             </div>
           </header>
           <div class="col-md-12 no-padding">

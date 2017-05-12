@@ -4,6 +4,54 @@ body{
     background: rgba(230, 230, 230, 0.58);
 }
 
+.os-icon{
+    width: 17px;
+    height: 17px;
+}
+
+.os-icon-div{
+    position: relative;
+    bottom: 45px;
+    text-align: right;
+    margin: 2%;
+}
+
+.social-icon{
+    width: 22px;
+    height: 25px;
+    margin: 5px 2px;
+}
+
+.incture_logo{
+    width: 120px;
+    margin: 10px 0px;
+}
+
+.back-btn{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.vedio_icon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 55px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.brochure_icon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
 
 .cover-img {
   background: url(https://storage.googleapis.com/ccwebsite-assets/img/banner/hand.jpg) top center no-repeat;
@@ -30,7 +78,7 @@ body{
 }
 
 .cover-img-detail {
-  background: url(../img/talent_banner.png) top center no-repeat;
+  background: url(../img/talent_banner.png) 50% 25% no-repeat;
 }
 .app-detail-container > .cover-img {
   /*height: 75vh !important;*/
@@ -138,17 +186,19 @@ button:focus {
     /*border: 1px solid #d4d4d4;*/
     cursor: pointer;
     border-radius: 2%;
-}
-
-.card-details:hover {
-   /* -webkit-box-shadow: 2px 2px 2px 2px #9C9C9C;
-    box-shadow: 2px 2px 2px 2px #9C9C9C;*/
-
     -webkit-box-shadow: 0px 8px 18px 0px rgba(94, 94, 94, 0.5);
     -moz-box-shadow:    0px 8px 18px 0px rgba(94, 94, 94, 0.5);
     -ms-box-shadow:     0px 8px 18px 0px rgba(94, 94, 94, 0.5);
     box-shadow:         0px 8px 18px 0px rgba(94, 94, 94, 0.5);
 }
+
+/*.card-details:hover {
+
+    -webkit-box-shadow: 0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+    -moz-box-shadow:    0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+    -ms-box-shadow:     0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+    box-shadow:         0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+}*/
 
 .card-details .post-title {
     font-size: 23px!important;
@@ -163,7 +213,8 @@ button:focus {
     .card-details .post-title {
         width: 70%;
         font-size: 17px!important;
-        text-align: left;
+        text-align: center;
+        padding: 15px 0px;
     }
 
     .category-container .post {
@@ -173,10 +224,14 @@ button:focus {
         margin: 3.5% !important;
         border: 1px solid #e2e2e2;
 
+        -webkit-box-shadow: 0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+        -moz-box-shadow:    0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+        -ms-box-shadow:     0px 8px 18px 0px rgba(94, 94, 94, 0.5);
+        box-shadow:         0px 8px 18px 0px rgba(94, 94, 94, 0.5);
     }
 
     .app-content-margin{
-        margin: 25px 0 0 45px !important;
+        margin: 30px 0 0 45px !important;
     }
 
     .post-header {
@@ -184,14 +239,12 @@ button:focus {
         margin-bottom: 15px !important;
     }
 
-    .card-details:hover {
-   /* -webkit-box-shadow: 2px 2px 2px 2px #9C9C9C;
-    box-shadow: 2px 2px 2px 2px #9C9C9C;*/
+    .card-details{
 
-    -webkit-box-shadow: 0px;
-    -moz-box-shadow:    0px;
-    -ms-box-shadow:     0px;
-    box-shadow:         0px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(94, 94, 94, 0.5);
+        -moz-box-shadow:    0px 0px 0px 0px rgba(94, 94, 94, 0.5);
+        -ms-box-shadow:     0px 0px 0px 0px rgba(94, 94, 94, 0.5);
+        box-shadow:         0px 0px 0px 0px rgba(94, 94, 94, 0.5);
     }
 }
 
@@ -341,7 +394,7 @@ button:focus {
 .post-lHeading{
     color: #5a5a5a;
     font-size: 30px;
-    padding: 40px 0 20px 0;
+    padding: 55px 0 20px 0;
     font-weight: bold;
 }
 
@@ -443,6 +496,7 @@ button:focus {
 #appCarousel img{
     height: 350px;
     margin: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 646px){
@@ -746,6 +800,22 @@ footer ul.quicklinks {
 
 /* ---------------- NavBar Styles ------------------*/
 
+body.menu-open{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body.menu-open > #side-bar-overlay {
+    position: fixed;
+    content: '';
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: rgba(46, 47, 51, 0.56);
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -853,8 +923,8 @@ footer ul.quicklinks {
 /* ---------------App page styles ------------- */
 
 .app-list-container{
-    /*padding-top : 100px;*/
-    /*min-height: 100vh;*/
+    padding-top : 90px;
+    min-height: 91vh;
     /*background : #efefef;*/
 }
 
@@ -869,7 +939,7 @@ footer ul.quicklinks {
 .cat-icon-small{
     width: 60px;
     height: 60px;
-    margin: 10px auto;
+    margin: 10px 14%;
     border: 1px solid #d4d4d4;
     font-size: 15px;
     padding: 5px;
@@ -903,10 +973,15 @@ footer ul.quicklinks {
     left: 0;
 }
 
+.app-icon-detail{
+    height: 50px;
+    width: 50px;
+}
+
 .app-icon-line{
-    border-top : 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
     position: relative;
-    margin-top: 75px;
+    margin-top: 45px;
 }
 
 .app-content-margin{
@@ -916,17 +991,13 @@ footer ul.quicklinks {
 /* -------------- details page css ------------ */
 
 .app-detail {
-  position: relative;
-  /*top: -350px;*/
-  margin: -14vh 80px 80px 80px;
-  /*padding: 30px;*/
-  background-color: #fff;
-  text-align: center;
-  /*margin-top: -330px;
-  margin-bottom: 30px;*/
-  border:1px solid #d4d4d4;
-  min-height: 400px;
-  border-radius: 5px;
+    position: relative;
+    margin: -14vh 80px 80px 80px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    overflow: hidden;
+    min-height: 400px;
 }
 
 .app-padding{

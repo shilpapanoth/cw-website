@@ -12,7 +12,7 @@ var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		// navbar = document.querySelector( '.navbar-default' ),
-		navbar = document.getElementById("navcontainer");
+		navbar = document.getElementById("topNavBar");
 
 		didScroll = false,
 		changeHeaderOn = 200;
@@ -28,7 +28,7 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
-		if(location.href.includes("contact")){
+		if(location.href.includes("contact") || location.href.includes("apps")){
 			classie.add( navbar, 'navbar-shrink' );
 		}
 		else{

@@ -1,5 +1,5 @@
 <div class="app-list-container">
-  <div class="overlay cover-img">
+  <!-- <div class="overlay cover-img">
     <div class="headline">
       <div class="container">
         <div class="main-text">Rapidly portable</div>
@@ -9,7 +9,7 @@
     <div class="arrowDown">
       <img src="/img/arrow_down.svg" ng-click="gotoBottom()" class="hover">
     </div>
-  </div>
+  </div> -->
   <div class="app-category hidden-xs" id="appCategory">
     <button ng-class="{'active': $index == selectedCategoryIndex}" ng-repeat="c in appData" ng-click="selectCategory($index)">
       <img ng-src="{{c.cIcon}}" class="cat-icon-class"> {{c.key}}
@@ -26,7 +26,13 @@
   <div class="category-container equal-height">
     <article class="post tag-outsourcing equal-height" ng-repeat="(appIndex, a) in selectedCategoryData.data">
       <div ui-sref="app-detail({appId: appIndex, catId: selectedCategoryIndex })" class="card-details">
-        <div class="app-icon-line"></div>
+        <div class="app-icon-line">
+          <div class="os-icon-div">
+            <img class="os-icon" src="../img/android.png">
+            <img class="os-icon" src="../img/ios.png">
+            <img class="os-icon" src="../img/html5.png">
+          </div>
+        </div>
         <img class="app-icon app-content-margin" ng-src="{{a.bgImg}}">
 
         <header class="post-header app-content-margin">

@@ -48,6 +48,20 @@
 
     function init ($rootScope) {
         $rootScope.contactNav="";
+        //event listeners for the collapse nav bar
+        $('#topNavBar').on('show.bs.collapse',function(){
+          var dimension = window.innerWidth;
+          if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || dimension < 768) {
+            // document.body.style.overflow="hidden";
+            document.body.classList.add("menu-open");
+          }
+        });
+
+        $('#topNavBar').on('hide.bs.collapse',function(){
+          // document.body.style.overflow = "auto";
+          document.body.classList.remove("menu-open");
+        });
+
     }
 })()
 
