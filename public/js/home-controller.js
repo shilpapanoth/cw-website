@@ -9,7 +9,7 @@
 		$rootScope.contactNav="";
 
     $('#mainCarousel').carousel({
-      interval: 5000
+      interval: 3500
     });
 	}
 })()

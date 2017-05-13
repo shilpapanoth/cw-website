@@ -39,9 +39,9 @@
 
 
         </div>
-          <div class="f-bg" ng-show="selectedApp.features">
-            <div class="f-overlay col-sm-12 no-padding app-padding">
-              <section class="post-fContent">
+          <div ng-show="selectedApp.features">
+            <div class="f-bg col-sm-12 no-padding">
+              <section class="f-overlay post-fContent app-padding">
                 <h3>Features</h3>
                 <li ng-repeat="f in selectedApp.features">
                   <b><strong>{{f.fName}}</strong></b><div ng-show="f.fText" ng-bind-html="setSceTofText(f.fText)"></div>
