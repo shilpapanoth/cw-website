@@ -11,9 +11,9 @@ angular
         link: function(scope, element){
           console.log(scope);
           element.bind('click', function() {
-            var _opened = $("#bs-example-navbar-collapse-2").hasClass("navbar-collapse ng-scope collapse in");
+            var _opened = $("#topNavCollapse").hasClass("navbar-collapse collapse in");
             if (_opened === true) {
-               $("#modNavBarBtn").click();
+               $("#topNavBtn").click();
             }
           });
         }
