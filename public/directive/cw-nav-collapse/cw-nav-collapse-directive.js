@@ -9,7 +9,7 @@ angular
           navbar: '='
         },
         link: function(scope, element){
-          console.log(scope);
+          // console.log(scope);
           element.bind('click', function() {
             var _opened = $("#topNavCollapse").hasClass("navbar-collapse collapse in");
             if (_opened === true) {
