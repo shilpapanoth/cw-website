@@ -11,6 +11,12 @@
     $('#mainCarousel').carousel({
       interval: 3500
     });
+    $("#mainCarousel").swiperight(function() {
+    		  $(this).carousel('prev');
+	  });
+		$("#mainCarousel").swipeleft(function() {
+		      $(this).carousel('next');
+	  });
 	}
 })()
 

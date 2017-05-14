@@ -13,13 +13,16 @@
               "bgImg": "../img/app-icons/timesheet.png",
               "features": [{
                 "fName": "Seamless Integration with SAP",
+                "isCollapsed": "true",
                 "fText": "modules such as SAP PPM, SAP HR and SAP CO."
               }, {
                 "fName": "Capabilities to configure",
+                "isCollapsed": "true",
                 "fText": "Timesheet Entry Rules, Holiday Calendars, leave and attendance recording, WBS Creation, Resource creation and allocation, Costing, Employee Mini Master, Approval Workflows and User Administration. The standalone timesheet is easy to configure and comes with multiple workflow options"
               }, {
                 "fName": "Extends SAP CATS to Mobile and the web with advanced UX frameworks",
-                "fText": "In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us on Cherrywork@incture.com or by downloading from SAP App Center (www.sapcenter.com -> Search ‘Cherrywork Timesheet’)."
+                "isCollapsed": "true",
+                "fText": "In case you have implemented SAP CATS and are looking for just building mobile capability with an additional set of validation, you may look no further than CW Timesheet Lite version. CW Timesheet Lite extends SAP CATS to Mobile and the web with advanced UX frameworks that make filling timesheets quick, easy and attractive. The app is dynamic as UX and device level validations changes with configuration changes in SAP CATS. The app can be procured by contacting us at <a href='mailto:Cherrywork@incture.com' target='_blank'>Cherrywork</a> or by downloading from <a href='https://www.sapappcenter.com/apps/4927#!overview' target='_blank'>SAP App Center</a>."
               }],
               "appImgs": [{
                 "carouselImg": "../img/app-images/time1.png",
@@ -41,9 +44,11 @@
               "bgImg": "../img/app-icons/leave.png",
               "features": [{
                 "fName": "Encouraging advanced planning",
+                "isCollapsed": "true",
                 "fText": "This tool encourages employees to plan leaves in advance so that they get desired vacation timings without compromising on work. The tool achieves this by a combination of a couple of algorithms –periodically checking (rising) leave liability, analyzing team’s leave calendar and then triggering timely notifications to the employees who have unutilized balances."
               }, {
                 "fName": "Intelligent Actionable Analytics",
+                "isCollapsed": "true",
                 "fText": "The tools also accumulate hours worked by each employee based on their time in/out entries and suggest the management list of top sluggers with eligible compensatory leaves. It also allows managers to reward employees by assigning extra leaves. It provides key insights to management such as usage of off work schedule hours, travel time spent by location and over/under working employees."
               }],
               "appImgs": [{
@@ -63,11 +68,14 @@
               "lContent1": "<p>Cherrywork Performance Management System is an extensive system that supports Annual Appraisals, 360-degree appraisals, Peer Reviews and Monthly Sales Appraisals. The key features are calibration wizard, increment proposals, specific scales to measure sales performance, incentive calculations and multiple options for approval workflows.</p>",
               "bgImg": "../img/app-icons/performance.png",
               "features": [{
-                "fName": "Calibration Wizard"
+                "fName": "Calibration Wizard",
+                "isCollapsed": "true"
               }, {
-                "fName": "Predictive Sales Performance"
+                "fName": "Predictive Sales Performance",
+                "isCollapsed": "true"
               },{
-                "fName": "Multiple Work Flow Options"
+                "fName": "Multiple Work Flow Options",
+                "isCollapsed": "true"
               }],
               "appImgs": [{
                 "carouselImg": "../img/app-images/performance1.png",
@@ -84,8 +92,8 @@
               "sContent": "Cherrywork Talent Acquisition System differentiates itself by improving process flexibility (multiple workflows) and by improving collaboration with between stakeholders. The tool is divided into four key submodules – Requisition, Sourcing, Evaluation and Offer. They key differentiating features are requisition workflows based on vacancy type, multiple sourcing venues – portal, website, alumni, campus, partners, internal, referrals and contractors, evaluation workflows with calendar integration and offer fitment process.",
               "lHeading": "Talent Acquisition",
               "lContent1": "<p>Talent Acquisition is a key strategy as well as a challenge for the fast-growing organizations. It becomes difficult for recruiters to keep up with the progress on each position. Cherrywork’s TA Module is a comprehensive solution that automates coordination, approvals and follows up thus allowing recruiters to focus on sourcing activities. It encourages stakeholders to complete their pending activities thus attempting to improve TAT targets. The module has been divided into the following four sub modules.</p>",
-              "lContent2": "<p><b><strong>Requisition:</strong></b> Organization has several types of open positions - Budgeted, Non-budgeted, Replacements – that requires different approval workflows based on the grade and location of a position.</p><p><b><strong>Sourcing:</strong></b>Once a requisition is opened and approved, a recruiter shall start sourcing it through several internal and external sources. CW supports a variety of sources as internal job postings, alumni, employee referrals, online job boards, campus, website, placement agencies and references. A recruiter can also search through the database of unsolicited or past applications to identify the matching profile. The module integrates with succession planning module thus shortlisting top (internal) candidates even if they have not applied.</p>",
-              "lContent3":"<p><b><strong>Evaluation:</strong></b>Evaluation is the most dynamic process in Recruitment. The tool allows hiring manager or HR BP or Recruiter to assign evaluation panel at different evaluation stages. The management can create multiple evaluation workflows that get triggered depending on the grade, location and function of the position.</p><p><b><strong>Offer:</strong></b>HR BP or Recruiter shall negotiate the offer with the shortlisted candidate. The system does fitment checks for the offer proposed and triggers the approval workflows for exceptions. A candidate shall accept/reject the offer on the portal. On acceptance, Cherrywork’s onboarding process is triggered.</p><p>Cherrywork also integrates with SAP HCM Recruitment, Personnel Administration and SF EC modules.</p>",
+              "lContent2": "<li><b><strong>Requisition:</strong></b> Organization has several types of open positions - Budgeted, Non-budgeted, Replacements – that requires different approval workflows based on the grade and location of a position.</li><li><b><strong>Sourcing:</strong></b>Once a requisition is opened and approved, a recruiter shall start sourcing it through several internal and external sources. CW supports a variety of sources as internal job postings, alumni, employee referrals, online job boards, campus, website, placement agencies and references. A recruiter can also search through the database of unsolicited or past applications to identify the matching profile. The module integrates with succession planning module thus shortlisting top (internal) candidates even if they have not applied.</li>",
+              "lContent3":"<li><b><strong>Evaluation:</strong></b>Evaluation is the most dynamic process in Recruitment. The tool allows hiring manager or HR BP or Recruiter to assign evaluation panel at different evaluation stages. The management can create multiple evaluation workflows that get triggered depending on the grade, location and function of the position.</li><li><b><strong>Offer:</strong></b>HR BP or Recruiter shall negotiate the offer with the shortlisted candidate. The system does fitment checks for the offer proposed and triggers the approval workflows for exceptions. A candidate shall accept/reject the offer on the portal. On acceptance, Cherrywork’s onboarding process is triggered.</li><p>Cherrywork also integrates with SAP HCM Recruitment, Personnel Administration and SF EC modules.</p>",
               "bgImg": "../img/app-icons/talent_aquisition-min.png",
               "appImgs": [{
                 "carouselImg": "../img/app-images/talent1.png",
@@ -106,42 +114,60 @@
               "lContent3": "<p>Cherrywork On-boarding app allows organizations to achieve the above objectives by digitizing well-designed process. The comprehensive app pulls new joiner’s data from CW’s TA Module and triggers the following processes.</p>",
               "bgImg": "../img/app-icons/onboarding.png",
               "features": [{
-                "fName": "The processes can be re-arranged, added, removed based on the business process."
+                "fName": "The processes can be re-arranged, added, removed based on the business process.",
+                "isCollapsed": "true"
               }, {
-                "fName": "Collect Employee Data"
+                "fName": "Collect Employee Data",
+                "isCollapsed": "true"
               },{
-                "fName": "Background Verification"
+                "fName": "Background Verification",
+                "isCollapsed": "true"
               },{
-                "fName": "Medical Evaluation"
+                "fName": "Medical Evaluation",
+                "isCollapsed": "true"
               }, {
-                "fName": "Visa Application (for expats)"
+                "fName": "Visa Application (for expats)",
+                "isCollapsed": "true"
               },{
-                "fName": "Travel Booking – Employee and dependents"
+                "fName": "Travel Booking – Employee and dependents",
+                "isCollapsed": "true"
               },{
-                "fName": "Movement of personal items"
+                "fName": "Movement of personal items",
+                "isCollapsed": "true"
               }, {
-                "fName": "Accommodation arrangements"
+                "fName": "Accommodation arrangements",
+                "isCollapsed": "true"
               },{
-                "fName": "IT Asset Procurement & Allocation"
+                "fName": "IT Asset Procurement & Allocation",
+                "isCollapsed": "true"
               },{
-                "fName": "Admin activities - Desk Allocation, ID Card, Access Card"
+                "fName": "Admin activities - Desk Allocation, ID Card, Access Card",
+                "isCollapsed": "true"
               },{
-                "fName": "Joining Day Formalities – Appointment letter, documentation validation"
+                "fName": "Joining Day Formalities – Appointment letter, documentation validation",
+                "isCollapsed": "true"
               },{
-                "fName": "Team Orientation"
+                "fName": "Team Orientation",
+                "isCollapsed": "true"
               },{
-                "fName": "Welcome Email"
+                "fName": "Welcome Email",
+                "isCollapsed": "true"
               },{
-                "fName": "New Joiner’s orientation/training"
+                "fName": "New Joiner’s orientation/training",
+                "isCollapsed": "true"
               },{
-                "fName": "Expense reimbursements"
+                "fName": "Expense reimbursements",
+                "isCollapsed": "true"
               },{
-                "fName": "Feedback collection"
+                "fName": "Feedback collection",
+                "isCollapsed": "true"
               },{
                 "fName": "The app improves collaboration by",
+                "isCollapsed": "true",
                 "fText": "integrating with third party systems from service providers such as BGV vendor, Hospitals, Travel Agents, logistics partners, lodging partners. The app integrates with SAP HCM’s Personnel Administration module and SAP SF Employee Central module for hiring action.  It also has dedicated login for internal stakeholders such as HR, IT, Admin and Accounts."
               },{
                 "fName": "Allows OB Manager to configure the SLAs",
+                "isCollapsed": "true",
                 "fText": "Since the process requires collaboration between multiple stakeholders, the app allows OB Manager to configure the SLAs and triggers alerts, reminders and push notifications to encourage adherence. The analytics provides bird’s eye view of OB Manager on SLA defaulters thus suggesting prompt action."
               }],
               "appImgs": [{
@@ -162,12 +188,15 @@
               "bgImg": "../img/app-icons/learning.png",
               "features": [{
                 "fName": " Single Dashboard",
+                "isCollapsed": "true",
                 "fText":"CW LMS is a comprehensive app that allows L&D to control all the training initiatives – classroom and digital -  from a single dashboard. The app integrates with third party authoring tools and third-party digital content providers. CW LMS tool facilitates the process as below:<li><b><strong>Collect requirements :</strong></b>The app provides easy-to-use UX that allows stakeholders to update the requirements on the portal.</li><li><b><strong>Schedule Training :</strong></b>L&D Manager can analyze the responses and shortlists training requirements for the quarter and/or year. The app enables managers to gauge the interest by launching a dummy batch and receiving reservation requests. If enough interest is evident, the manager can launch a batch and generate enrollments. Employees interested in the training can submit the request for approval which further goes to the L&D coordinator for enrollment. Once enrolled, the participant receives notification and reminders for the training.</li><li><b><strong>Conduct and evaluate :</strong></b>A participant can take either online or classroom training as defined by the L&D Team. The app facilitates classroom, online and recorded training sessions. A faculty can suggest pre-session study material or quiz that participant shall take before arriving for the session. On completion of a batch, the faculty shall evaluate each participant on the system. The app enables the coordinator to mark attendance and also enables the participant to provide feedback on the training.</li><li><b><strong>Certify :</strong></b>L&D Manager/Coordinator shall then look at the performance of a participant, attendance and then decide to issue a certificate with a validity period. An employee can view/download the certificates and the same shall also be updated in employee’s IDP.</li>"
               }, {
                 "fName": "Smarter Analytics",
+                "isCollapsed": "true",
                 "fText": "The app provides analytics for measuring effectiveness of the courses and also tracks employees'/functions' compliance towards Individual Development Plans."
               },{
                 "fName": "Integrations with Third Party & SAP Training & Development",
+                "isCollapsed": "true",
                 "fText":"The app integrates with third party SCORM compliant content providers and authorization tools. The content plays on CW’s advanced player that supports multiple video and audio formats. It also integrates with SAP Training & Development, e-Learning, Organizational Management and Personnel Administration modules. It also integrates with SAP SF PMGM module."
               }],
               "appImgs": [{
@@ -178,6 +207,23 @@
                 "imgActive":""
               },{
                 "carouselImg": "../img/app-images/learning3.png",
+                "imgActive":""
+              }]
+            },{
+              "heading": "Career Planning",
+              "sContent": "Cherrywork Career Planning System provides an employee with a clear path for career growth and the skills, certifications and education qualifications required for the next job. The system also recommends internal training that candidate shall attend to get promoted to the next level in his career path.",
+              "lHeading": "Career Planning with Cherrywork",
+              "lTagline": "The right path for your employees",
+              "lContent1": "<p>Cherrywork Career Planning System provides an employee with a clear path for career growth and the skills, certifications and education qualifications required for the next job. The system also recommends internal training that candidate shall attend to get promoted to the next level in his career path.</p>",
+              "bgImg": "../img/app-icons/career-min.png",
+              "appImgs": [{
+                "carouselImg": "../img/app-images/career1.png",
+                "imgActive":"active"
+              },{
+                "carouselImg": "../img/app-images/career2.png",
+                "imgActive":""
+              },{
+                "carouselImg": "../img/app-images/career3.png",
                 "imgActive":""
               }]
             }]
@@ -193,17 +239,29 @@
               "lContent2": "<p>AP automation streamlines your end-to-end operations by enabling you to capture invoices from virtually anywhere, extract relevant data without human intervention, and at all times gain visibility to the financial processes that support or subvert your business success. And with automation accelerating the entire operation, you’ll be ideally positioned to improve cash flow by capitalizing on early payment bonuses.</p>",
               "bgImg": "../img/app-icons/AP-min.png",
               "features": [{
-                "fName": "Reduced AP Processing Cost ",
-                "fText": "Reduced transaction processing cost. Reduced FTE redeployments with faster turnaround time due to automation. This results in a reduction in paper storage and retention cost. Also, reduced exception and prioritization of invoices based on supplier/invoice value etc."
+                "fName": "Support for Multiple Channels",
+                "isCollapsed": "true",
+                "fText": "Our AP Automation Solution allows to capture vendor invoices virtually from anywhere. Be it paper based invoices received via fax or as hard copies to the more structured format received via EDI. We also enable your suppliers to submit their invoices directly via Portal."
               }, {
-                "fName": "Improved Visibility",
-                "fText": "Gain End to end visibility and better predictive alerts and notifications in cases of exceptions. It allows a single version of truth for both supplier and internal teams. It equips User workload with process reports to measure KPIs. Leading to a strengthened vendor relationship and promote collaboration."
-              },{
-                "fName": "Increased Returns in Available Cash",
-                "fText":"Helps take advantage of discounts by early payments and improved data capture for better control over spend. Resulting in the optimized working capital."
-              },{
-                "fName": "Compliance",
-                "fText":"Ensuring VAT or other tax compliance and reduced fraud due to a smart Audit trail."
+                "fName": "Sophisticated Fuzzy Match",
+                "isCollapsed": "true",
+                "fText": "We have a sophisticated fuzzy algorithm which matches invoice line items against Purchase Order and Goods Receipt."
+              }, {
+                "fName": "Touch less posting and seamless integration with SAP system",
+                "isCollapsed": "true",
+                "fText": "For all those perfectly matched invoices against PO and GR, our solution allows to auto posts invoices in SAP system. Our solution has in-built connectors to integrate with your SAP systems. Whether it is fetching PO and GR details from SAP to posting invoices and payments, we have all."
+              }, {
+                "fName": "Account Payable Workbench",
+                "isCollapsed": "true",
+                "fText": "Your Accounting Team and CFO can access invoices via the workbench where they can review and approve the invoices. They can also access various reports via this Workbench."
+              }, {
+                "fName": "Rule based Workflow",
+                "isCollapsed": "true",
+                "fText": "We have flexible rule based workflow where tasks are auto routed to your accounting team members. System also auto routes those high value invoices to relevant stake holders for approval."
+              }, {
+                "fName": "Reports",
+                "isCollapsed": "true",
+                "fText": "We have some in-built reports which provides end-to-end visibility to your billing process. Whether it is managing your user's workload or tracking the process cycle time to the more detailed audit trails, we provide all."
               }],
               "appImgs": [{
                 "carouselImg": "../img/app-images/AP1.png",
@@ -222,11 +280,45 @@
               "lContent1": "<p>Supplier Network Collaboration is a key area in supply chain management that enables collaborative planning and exchange of documents between you and your suppliers.</p>",
               "bgImg": "../img/app-icons/supplier network-min.png",
               "features": [{
-                "fName": "Supports end-to-end supply chain operations",
-                "fText": "updating product prices, updating POs, raising ASN, raising invoices, self-service, end-to-end visibility."
+                "fName": "Client/Supplier collaboration",
+                "isCollapsed": "true",
+                "fText": "via message boards, upload and download of documents and contact information all enabled at the supplier level via permissions."
               }, {
-                "fName": "B2B connectivity",
-                "fText": "with your partners to exchange documents."
+                "fName": "Registration",
+                "isCollapsed": "true",
+                "fText": "with approval for new supplier users."
+              }, {
+                "fName": "End to End visibility",
+                "isCollapsed": "true",
+                "fText": "of Purchase Orders, GR, Contracts, Invoices."
+              }, {
+                "fName": "Ability for the suppliers",
+                "isCollapsed": "true",
+                "fText": "to change Po, raise invoices, create asn right from the portal."
+              }, {
+                "fName": "Special alerts",
+                "isCollapsed": "true",
+                "fText": "on forecast or purchase order lines where immediate action may be required."
+              }, {
+                "fName": "Excel download capabilities",
+                "isCollapsed": "true"
+              }, {
+                "fName": "Service Request Management",
+                "isCollapsed": "true"
+              }, {
+                "fName": "Profile Management",
+                "isCollapsed": "true"
+              }, {
+                "fName": "B2B integration capabilities",
+                "isCollapsed": "true",
+                "fText": "with your high volume suppliers."
+              }, {
+                "fName": "Widgets for quick info",
+                "isCollapsed": "true",
+                "fText": "on payment schedules, returns , material purchases."
+              }, {
+                "fName": "Seamless integration with your SAP systems",
+                "isCollapsed": "true"
               }],
               "appImgs": [{
                 "carouselImg": "../img/app-images/supp-collab1.png",
@@ -243,12 +335,37 @@
               "sContent": "Significant efficiencies can be realized across the supply chain when all stakeholders (enterprise, vendors, and carriers) can collaborate in real time through a standardized logistics execution platform. This type of interaction is also known as collaborative logistics.",
               "lHeading": "Collaborative Logistics",
               "lContent1": "<p>The cornerstone of collaborative logistics is timely visibility. Data about orders, inventory, transportation, and spending need to all funnel into a common denominator big data repository and be readily accessible.</p>",
-              "lContent2":"<p>A Web-native execution platform lends itself to the collaborative logistics execution model as it is meant to operate on the edge of the enterprise. Considered high tech for its complicated logistics algorithms in the back end, and low tech for ease of use on the front end, this type of solution empowers any stakeholder in the supply chain. As you start collaborating with a carrier agnostic system here is what you can expect:</p>",
-              "lContent3":"<li>Visibility into transportation orders, purchase orders, shipments, exceptions, invoices, and spend</li><li>Real-time monitoring</li><li>Real-time reporting. No waiting for reports or data to be input</li><li>Live. If it is happening, you know about it</li><li>Everyone in the supply chain is collaborating around the same data</li>",
-              "bgImg": "../img/app-icons/logisstics-min.png"
+              "lContent2":"<p>A Web-native execution platform lends itself to the collaborative logistics execution model as it is meant to operate on the edge of the enterprise. Considered high tech for its complicated logistics algorithms in the back end, and low tech for ease of use on the front end, this type of solution empowers any stakeholder in the supply chain. As you start collaborating with a carrier agnostic system here is what you can expect:</p><li>Visibility into transportation orders, purchase orders, shipments, exceptions, invoices, and spend</li><li>Real-time monitoring</li><li>Real-time reporting. No waiting for reports or data to be input</li><li>Live. If it is happening, you know about it</li><li>Everyone in the supply chain is collaborating around the same data</li>",
+              "lContent3":"<p>Below are the list of benefits :</p><li>Real-time reporting. No waiting for reports or data to be input.</li><li>Live. If it is happening, you know about it.</li><li>Everyone in the supply chain is collaborating around the same data.</li><li>Packaged Apps reduces Time-to-Implement for contemporary business process.</li>",
+              "bgImg": "../img/app-icons/logisstics-min.png",
+              "features": [{
+                "fName": "Mobile based barcode / QR code",
+                "isCollapsed": "true",
+                "fText": "for scanning, picking, pre-packing and real-time tracking of shipments."
+              }, {
+                "fName": "Online form based data management",
+                "isCollapsed": "true",
+                "fText": "for your delivery orders, delivery confirmations."
+              }, {
+                "fName": "Workflow based task management",
+                "isCollapsed": "true"
+              }, {
+                "fName": "Exception based processing",
+                "isCollapsed": "true"
+              }, {
+                "fName": "Analytics based decision support",
+                "isCollapsed": "true"
+              }, {
+                "fName": "Detailed reports",
+                "isCollapsed": "true",
+                "fText": "on inventory levels, dispatch planning, in stock/out of stock and many more."
+              }, {
+                "fName": "Cloud based collaboration platform using SAP Cloud Platform",
+                "isCollapsed": "true"
+              }]
             }]
         },{
-          "key": "Line of Business Apps",
+          "key": "Master Data Management",
           "cIcon":"../img/categories/lob.png",
           "brochure":"",
           "data" : [{
@@ -258,17 +375,23 @@
               "lContent1": "<p>PIM systems generally need to support multiple geographic locations, multilingual data, and maintenance and modification of product information within a centralized catalog. Information kept by a business can be scattered throughout departments and held by employees or systems, instead of being available centrally; data may be saved in various formats, or only be available in hard copy form. Information may be needed for detailed product descriptions with prices, or calculating freight costs. PIM represents a solution for centralized, media-independent data maintenance, as well as efficient data collection, management, refinement and output.</p>",
               "bgImg": "../img/app-icons/PIM-min.png",
               "features": [{
-                "fName": "Editing of Product Details"
+                "fName": "Editing of Product Details",
+                "isCollapsed": "true"
               }, {
-                "fName": "New Product Introduction"
+                "fName": "New Product Introduction",
+                "isCollapsed": "true"
               },{
-                "fName": "Managing Product Information"
+                "fName": "Managing Product Information",
+                "isCollapsed": "true"
               },{
-                "fName": "Categorizing product/creation of product categories"
+                "fName": "Categorizing product/creation of product categories",
+                "isCollapsed": "true"
               },{
-                "fName": "Differentiating product information for multi-channel distribution"
+                "fName": "Differentiating product information for multi-channel distribution",
+                "isCollapsed": "true"
               },{
-                "fName": "Distributing product info to multiple systems"
+                "fName": "Distributing product info to multiple systems",
+                "isCollapsed": "true"
               }]
             }]
         }]

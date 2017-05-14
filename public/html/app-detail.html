@@ -43,8 +43,9 @@
             <div class="f-bg col-sm-12 no-padding">
               <section class="f-overlay post-fContent app-padding">
                 <h3>Features</h3>
-                <li ng-repeat="f in selectedApp.features">
-                  <b><strong>{{f.fName}}</strong></b><div ng-show="f.fText" ng-bind-html="setSceTofText(f.fText)"></div>
+                <li ng-click="f.isCollapsed = !f.isCollapsed" ng-repeat="f in selectedApp.features">
+                  <b class="fName"><strong>{{f.fName}}</strong></b>
+                  <div collapse="element.isCollapsed"  ng-show="f.fText && !f.isCollapsed" ng-bind-html="setSceTofText(f.fText)"></div>
                 </li>
               </section>
             </div>
