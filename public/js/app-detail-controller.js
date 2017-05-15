@@ -9,8 +9,13 @@
 
   function appDetailController ($scope, $rootScope, $state, $stateParams, $http, $sce) {
 
+    $scope.showVedio = showVedio;
     $scope.setSceToContent = setSceToContent;
     $scope.setSceTofText = $sce.trustAsHtml;
+
+    //Pausing the vedio on load
+
+    // document.getElementById("d-video-bg").pause();
 
     $rootScope.contactNav="";
     $('#appCarousel').carousel({
@@ -57,6 +62,9 @@
       $scope.lContent3 =$sce.trustAsHtml($scope.selectedApp.lContent3);
     }
 
+   function showVedio(){
+     $('#modal-video').modal('show');
+   }
 
   }
 

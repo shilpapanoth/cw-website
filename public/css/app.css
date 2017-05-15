@@ -1370,3 +1370,56 @@ body.menu-open > #side-bar-overlay {
   display: flex;
   flex-flow: row wrap;
 }
+
+
+/*** Modal Styles ****/
+
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+.modal-body {
+    /*padding: 0 25px 25px 25px;*/
+}
+
+.modal-dialog{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.modal-video{
+    width: 75% !important;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
